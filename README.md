@@ -1,4 +1,4 @@
-#Mining Yelp Reviews
+# Mining Yelp Reviews - December 2017
 
 ## Running Source code
 
