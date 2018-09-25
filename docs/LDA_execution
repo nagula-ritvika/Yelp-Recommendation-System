@@ -1,0 +1,1152 @@
+Rashmis-MacBook-Pro:mallet-2.0.8 rashmidwaraka$ ./bin/mallet import-dir --input ../Yelp-Recommendation-System/topic_modeling/review_clustering/output/review_files/ --output review_model --keep-sequence
+Labels = 
+   ../Yelp-Recommendation-System/topic_modeling/review_clustering/output/review_files/
+Rashmis-MacBook-Pro:mallet-2.0.8 rashmidwaraka$ ls
+
+Rashmis-MacBook-Pro:mallet-2.0.8 rashmidwaraka$ ./bin/mallet train-topics  --input review_model --num-topics 50 --output-topic-keys topic_words.txt --output-doc-topics doc_topic.txt
+Mallet LDA: 50 topics, 6 topic bits, 111111 topic mask
+Data loaded.
+max tokens: 692
+total tokens: 65109369
+<10> LL/token: -11.04385
+<20> LL/token: -9.9963
+<30> LL/token: -9.65039
+<40> LL/token: -9.50171
+
+0	0.1	seating parking cafe location crepe patio starbucks staff tables outdoor crepes plenty located wifi breakfast atmosphere grab shops building chairs 
+1	0.1	staff restaurant atmosphere phoenix highly owner location prices scottsdale owners absolutely places owned valley visit business los restaurants visiting hidden 
+2	0.1	cheese visit madison burgers tasty gordon cleveland truffle atmosphere bacon ingredients chef chips farm youll options restaurant diners dining simple 
+3	0.1	rice beef ordered shrimp dishes dish noodles dumplings restaurant order noodle spicy veggies steamed asian chow vegetables tofu broccoli crispy 
+4	0.1	ordered cooked meal rare filet steaks rib potatoes restaurant sides waiter steakhouse server ribeye salad lobster potato dining mignon sprouts 
+5	0.1	est pas des une mais trs cest qui avec bon dans sont vous nous jai mon bien sur par tait 
+6	0.1	restaurant staff pasta airport chicago pizza phoenix atmosphere restaurants prices places quality visit highly salads style location owner weve meal 
+7	0.1	yogurt toppings staff options pastries treat bakery custard serve selection gelato sample cone strawberry vanilla scoop tasty banana croissant places 
+8	0.1	greek salad pita hummus gyro lamb rice plate ordered falafel tasty restaurant shawarma order mediterranean meal beef platter gyros portions 
+9	0.1	tea milk iced boba latte gelato teas bubble ordered tasted vanilla starbucks matcha almond caramel coconut chai pastries macarons bean 
+10	0.1	breakfast eggs brunch toast bacon pancakes hash potatoes waffles ordered sunday benedict sausage waffle gravy omelet omelette biscuits diner browns 
+11	0.1	burgers cheese onion bun bacon rings ordered order chili patty cooked onions beef toppings juicy cheeseburger potato ketchup buns tasty 
+12	0.1	crab lobster seafood vegas oysters shrimp buffet bellagio view oyster chowder strip meal casino clam quality brunch hotel seated cocktail 
+13	0.1	stars reviews ordered restaurant yelp tasted review meal based average tapas order gave waitress plate seemed overall rating sangria server 
+14	0.1	quality sub stars places tasted average sandwich order prices par philly reviews subs subway less extra seemed review theyre ingredients 
+15	0.1	quality prices stars review staff visit reviews portions meal portion places restaurant less yelp rating value ingredients smoothie based average 
+16	0.1	location parking locations mall prices staff quality places chain located opened business shopping strip theyre visit less north court restaurants 
+17	0.1	sandwich cheese sandwiches beef ordered grilled bacon deli potato order ham tasty smoked chips pastrami roast tomato mayo toasted mustard 
+18	0.1	sushi salmon sashimi tuna quality ayce rice tempura spicy places chef restaurant order shrimp pieces ordered chefs miso nigiri teriyaki 
+19	0.1	korean dishes spicy tuna beef rice restaurant bbq ordered dish tofu kimchi order grill salmon bulgogi ahi meal sashimi sake 
+20	0.1	duck restaurant chef meal poutine dish montreal gras foie tasting dishes dessert dining served restaurants courses chefs plate beef frites 
+21	0.1	server tables restaurant seated waitress order waited hostess seemed ordered servers group staff waiter greeted quickly immediately upon noticed dining 
+22	0.1	order location delivery ordered customer ordering review delivered staff stars deliver business closed extra placed takeout waited employees gave theyre 
+23	0.1	ramen noodles broth pho beef noodle spicy ordered salty restaurant rice places order extra miso tasty dish portion tasted flavorful 
+24	0.1	bartender pub nachos tvs bartenders beers atmosphere irish waitress chips staff friday glass selection saturday crowd sunday coke seemed stars 
+25	0.1	customer customers employees staff business manager owner employee location cashier management attitude register review bathroom health workers gave establishment closed 
+26	0.1	thai curry spicy rice ordered dish restaurant dishes shrimp beef noodles spice order tofu coconut basil restaurants asian tea noodle 
+27	0.1	order manager ordered customer waitress bill gave server tip charged waited received customers meal restaurant owner extra coupon offered waiter 
+28	0.1	staff atmosphere server restaurant visit highly owner absolutely servers patio extremely stars bartender welcoming accommodating customer professional dining weve sunday 
+29	0.1	indian restaurant dishes naan rice spicy curry buffet dish lamb vegetarian ordered masala restaurants tasty spice tikka roti order cuisine 
+30	0.1	tacos taco chips burrito guacamole carne asada cheese ordered rice tortilla margaritas burritos tortillas nachos enchiladas beef chipotle quesadilla spicy 
+31	0.1	salad dressing cheese lettuce salads ordered tomatoes caesar grilled greens tomato meal tasty potato spinach avocado kale roasted goat served 
+32	0.1	und der das ist war nicht ich sehr mit auch wir ein aber den essen auf eine gut sind waren 
+33	0.1	hotel restaurant strip view staff stayed casino staying parking located event guests resort dining walking restaurants tour vegas desk mgm 
+34	0.1	beers selection pho tap craft atmosphere staff vietnamese brewery draft ale brew patio tasty prices places brews ipa banh pub 
+35	0.1	restaurant dining atmosphere prices staff portions group dishes meal decor restaurants quality overall tables average options seating casual portion ambiance 
+36	0.1	crowd event parking youll bars pittsburgh packed theyre group review venue saturday friday cleveland karaoke walking fact bowling stage giant 
+37	0.1	tables patio seating decor atmosphere cocktails chairs walls dining vibe cocktail glass seats lounge upstairs outdoor ambiance lighting group crowd 
+38	0.1	vegas las strip restaurant prices visit hotel staff located places casino restaurants mall highly visiting staying atmosphere location york german 
+39	0.1	dessert restaurant meal dish cooked ordered lamb appetizer dishes waiter risotto scallops dining pasta filet beef served entree potatoes entrees 
+40	0.1	ordered shrimp salmon appetizer dish calamari cooked meal cheese served salad server dessert entree tasted tasty plate appetizers potatoes grilled 
+41	0.1	pasta ordered cheese salad restaurant meal dish meatballs spaghetti appetizer server tasted olive order eggplant tomato parmesan portion plate tasty 
+42	0.1	vegan options vegetarian staff cafe gluten veggie espresso toronto atmosphere places vibe tasty selection theyre visit decor favourite youll glutenfree 
+43	0.1	bbq brisket pulled cheese ordered sides potato shrimp sauces spicy slaw juicy meal order chips cajun tasty coleslaw cooked crispy 
+44	0.1	buffet selection buffets dessert station quality desserts vegas dishes asian seafood hawaiian crab plate section plates options foods rib salad 
+45	0.1	server seated restaurant ordered waiter waitress order waited tables hostess meal manager reservation bill seemed group quickly servers served greeted 
+46	0.1	dish served crispy texture creamy topped slightly crunchy ingredients dessert flavours ginger thick savory spicy filling lime salty roasted combination 
+47	0.1	pizza cheese pizzas toppings thin slice ordered pepperoni slices order sausage oven style dough delivery ingredients mozzarella crispy york topping 
+48	0.1	selection market grocery prices foods produce shopping products donut section organic quality staff meats bakery deli gluten etc joes doughnuts 
+49	0.1	cake dessert cheesecake cupcakes desserts cupcake tasted strawberry ordered bakery velvet moist frosting vanilla brownie banana caramel factory cheese icing 
+
+<50> LL/token: -9.42337
+<60> LL/token: -9.37325
+<70> LL/token: -9.34013
+<80> LL/token: -9.31862
+<90> LL/token: -9.30367
+
+0	0.1	seating parking patio cafe staff outdoor crepe tables atmosphere location crepes plenty starbucks wifi breakfast located grab building sandwiches selection 
+1	0.1	staff restaurant atmosphere phoenix highly owner prices owned owners los business absolutely scottsdale hidden tasty valley portions visit places empanadas 
+2	0.1	visit dining cleveland youll restaurant madison restaurants chef truly ingredients simple review fact certainly diners culinary diner fare places gordon 
+3	0.1	rice beef noodles dishes dish dumplings shrimp ordered restaurant noodle order asian spicy steamed duck chow veggies broccoli crispy mein 
+4	0.1	cooked filet ordered meal rib rare steaks potatoes sides restaurant salad ribeye steakhouse waiter mignon beef dessert potato server lobster 
+5	0.1	est pas des une mais trs cest qui avec bon dans sont vous nous jai bien sur par tait mon 
+6	0.1	restaurant staff places phoenix restaurants weve visit airport atmosphere quality chicago charlotte eaten prices pittsburgh business several visiting highly chain 
+7	0.1	gelato yogurt toppings smoothie strawberry vanilla waffle scoop custard treat banana cone smoothies serve coconut caramel dessert croissant pastries sample 
+8	0.1	greek pita hummus salad gyro lamb rice plate falafel tasty restaurant shawarma ordered mediterranean meal order beef gyros platter portions 
+9	0.1	tea milk iced boba latte starbucks teas espresso ordered bubble cafe matcha chai staff tasted order regular bean mocha places 
+10	0.1	breakfast eggs brunch toast bacon pancakes hash potatoes waffles ordered sunday sausage benedict waffle gravy omelet omelette biscuits diner browns 
+11	0.1	burgers cheese onion bacon bun rings ordered order chili patty onions cooked potato beef toppings juicy cheeseburger poutine tasty tots 
+12	0.1	crab lobster shrimp seafood oysters ordered chowder oyster clam mussels order restaurant meal clams bisque cajun cooked cocktail crawfish tasty 
+13	0.1	reviews stars yelp ordered review restaurant based gave tasted rating average seemed overall expectations expecting ended honestly expected tapas waitress 
+14	0.1	tasted ordered quality soggy cooked seemed tasteless burnt average overcooked completely pieces meal stars tiny literally flavorless less meh reviews 
+15	0.1	quality prices stars review visit places less portions portion value rating average higher staff reviews theyre regular ingredients visits fact 
+16	0.1	location locations parking mall staff located opened chain shopping strip visit north places plaza closed quality court scottsdale opening tempe 
+17	0.1	sandwich sandwiches cheese beef grilled sub deli ordered order philly bacon ham pastrami tasty chips roast subway subs smoked mayo 
+18	0.1	sushi tuna salmon sashimi rice spicy ayce tempura quality chef miso places order poke pieces restaurant sake ordered chefs nigiri 
+19	0.1	korean dishes beef rice spicy restaurant bbq tofu dish kimchi ordered order grill bulgogi meal style tasty places restaurants meats 
+20	0.1	restaurant meal duck chef dish montreal dishes gras foie tasting dining dessert poutine served restaurants courses chefs frites bistro prepared 
+21	0.1	tables restaurant server seated order waitress seemed hostess waited greeted ordered quickly upon dining immediately servers noticed served staff menus 
+22	0.1	order ordered delivery ordering customer location waited placed delivered gave takeout deliver extra received driver togo stars business closed cashier 
+23	0.1	pho ramen noodles broth beef vietnamese noodle ordered restaurant spicy places rice salty order tasty bun extra banh flavorful miso 
+24	0.1	bartender atmosphere pub tvs bartenders staff nachos friday crowd saturday chips irish patio sunday waitress packed selection bars group prices 
+25	0.1	customer customers employees staff business manager employee owner location management cashier attitude register order bathroom workers review health stars establishment 
+26	0.1	thai curry spicy rice dish ordered restaurant dishes spice noodles beef order coconut shrimp tofu basil tasty asian restaurants salad 
+27	0.1	manager bill order waitress customer ordered tip gave server charged restaurant meal coupon extra groupon owner received waiter offered customers 
+28	0.1	staff server owner customer atmosphere restaurant visit highly absolutely manager extremely chef servers welcoming bartender greeted accommodating beyond professional gave 
+29	0.1	indian restaurant dishes naan rice spicy curry dish ordered lamb masala buffet tasty spice restaurants tikka vegetarian order roti meal 
+30	0.1	tacos taco chips burrito guacamole cheese carne asada rice tortilla ordered margaritas burritos tortillas nachos enchiladas chipotle beef chile tasty 
+31	0.1	salad cheese dressing lettuce ordered salads grilled tomatoes caesar tomato greens meal potato spinach avocado tasty kale goat roasted veggies 
+32	0.1	und der das ist war nicht ich sehr mit auch wir ein aber den essen auf eine gut sind waren 
+33	0.1	hotel view staying staff casino stayed parking strip event restaurant vegas located resort mgm walking desk guests bathroom lobby tour 
+34	0.1	selection beers tap atmosphere craft staff patio draft brewery ale brew german brews visit tasty ipa pub bartender wines pretzel 
+35	0.1	restaurant prices atmosphere portions staff quality average dining overall decor group meal dishes restaurants casual portion priced options ambiance tables 
+36	0.1	crowd youll review group event theyre fact packed venue giant stage walking bowling parking entertainment joint friday scene apparently festival 
+37	0.1	decor tables patio atmosphere seating walls chairs dining restaurant cocktails vibe ambiance lounge interior glass lighting cocktail seats upstairs booths 
+38	0.1	vegas las strip restaurant prices visit located hotel places casino mall restaurants staying visiting location highly meal york locals venetian 
+39	0.1	dessert dish restaurant cheese meal ordered lamb appetizer cooked risotto scallops dishes roasted salad server sprouts served dining entree shared 
+40	0.1	ordered shrimp appetizer salmon calamari dish meal dip cheese server cooked chips appetizers entree tasty served plate entrees grilled portion 
+41	0.1	pasta ordered restaurant dish salad meatballs meal spaghetti cheese olive dishes veal ravioli lasagna tomato eggplant parmesan appetizer calamari alfredo 
+42	0.1	options vegan vegetarian gluten staff veggie tasty ingredients selection cafe toronto places glutenfree atmosphere favourite edinburgh vegetarians organic theyre diet 
+43	0.1	bbq brisket cheese pulled sides potato ordered sauces slaw meal sandwich spicy coleslaw order tasty smoked cornbread southern juicy crispy 
+44	0.1	buffet selection vegas buffets dessert station quality desserts crab rib seafood section dishes asian plates brunch options foods filipino plate 
+45	0.1	server ordered seated order waiter waitress restaurant waited meal reservation hostess tables manager group bill quickly seemed reservations servers served 
+46	0.1	dish served crispy texture creamy topped slightly thick onions crunchy pieces cooked salty spicy thin plate amount savory roasted sliced 
+47	0.1	pizza cheese pizzas toppings thin slice pepperoni ordered slices sausage order oven style dough ingredients delivery mozzarella crispy chicago york 
+48	0.1	selection market prices grocery foods produce shopping products section organic quality staff meats etc joes bakery deli parking goods stock 
+49	0.1	cake dessert cheesecake cupcakes donut bakery desserts cupcake velvet strawberry moist frosting caramel vanilla tasted filling brownie banana cinnamon cheese 
+
+<100> LL/token: -9.29254
+<110> LL/token: -9.2841
+<120> LL/token: -9.27747
+<130> LL/token: -9.27264
+<140> LL/token: -9.26776
+
+0	0.1	seating patio parking cafe staff outdoor crepe tables atmosphere crepes plenty location wifi breakfast grab sandwiches selection options located starbucks 
+1	0.1	staff atmosphere highly restaurant prices owner owned absolutely tasty portions los owners hidden welcoming empanadas phoenix business cuban priced angeles 
+2	0.1	dining visit youll restaurants restaurant ingredients cleveland fact truly certainly simple review diners chef madison culinary fare cuisine quality establishment 
+3	0.1	rice beef noodles dishes dish dumplings shrimp ordered restaurant noodle order asian spicy steamed duck chow broccoli crispy mein tasty 
+4	0.1	cooked filet ordered meal rib rare steaks potatoes restaurant sides salad ribeye waiter steakhouse dessert mignon beef lobster potato server 
+5	0.1	est pas des une mais trs cest qui avec bon dans sont vous nous jai bien sur par tait mon 
+6	0.1	restaurant phoenix staff places restaurants visit weve airport atmosphere charlotte eaten chicago business pittsburgh scottsdale visiting valley several quality prices 
+7	0.1	gelato yogurt toppings strawberry dessert smoothie waffle vanilla banana scoop treat coconut custard serve cone caramel flavours creamy smoothies sample 
+8	0.1	greek pita hummus salad gyro lamb rice plate restaurant falafel tasty shawarma ordered mediterranean meal order beef gyros platter portions 
+9	0.1	tea milk iced boba latte starbucks espresso teas bubble ordered cafe matcha staff chai order mocha regular barista places bean 
+10	0.1	breakfast eggs brunch bacon toast pancakes hash potatoes waffles ordered sausage benedict sunday gravy waffle omelet omelette diner biscuits browns 
+11	0.1	burgers cheese onion bacon bun rings ordered order poutine chili patty onions beef potato cooked toppings cheeseburger juicy tasty tots 
+12	0.1	shrimp crab lobster seafood oysters ordered mussels chowder oyster cajun order restaurant clam cooked bang meal scallops clams cocktail bisque 
+13	0.1	stars reviews yelp review based ordered restaurant rating gave average seemed places honestly fact expectations overall tasted yelpers expecting expected 
+14	0.1	tasted ordered cooked seemed soggy tasteless meal burnt quality plate overcooked pieces completely salty served tiny reviews raw flavorless literally 
+15	0.1	quality prices stars places review visit less average value theyre higher portions rating staff portion ingredients regular visits extra paying 
+16	0.1	location parking locations mall staff located opened shopping strip chain north closed visit plaza scottsdale court tempe opening starbucks closer 
+17	0.1	sandwich sandwiches cheese beef sub deli grilled ordered order philly pastrami ham subway bacon chips roast tasty subs smoked mayo 
+18	0.1	sushi tuna salmon sashimi rice spicy tempura ayce quality miso chef poke places order sake pieces restaurant shrimp ordered nigiri 
+19	0.1	korean rice dishes beef spicy restaurant bbq tofu kimchi ordered order dish grill hawaiian bulgogi meal places plate katsu meats 
+20	0.1	restaurant meal dish chef dishes montreal duck dining gras tasting foie dessert restaurants served courses chefs waiter frites prepared bistro 
+21	0.1	tables restaurant server seated waitress order seemed ordered hostess greeted quickly dining upon waited immediately plates noticed servers served meal 
+22	0.1	order ordered delivery ordering customer waited location placed delivered gave extra takeout deliver received driver togo cashier business stars app 
+23	0.1	pho ramen noodles broth beef vietnamese noodle ordered restaurant places spicy rice salty order tasty bun banh extra miso flavorful 
+24	0.1	bartender atmosphere pub tvs staff bartenders nachos crowd friday patio saturday irish sunday selection packed bars group prices beers chips 
+25	0.1	customer customers employees staff business manager location owner employee management order attitude cashier register workers review stars bathroom closed establishment 
+26	0.1	thai curry spicy rice dish ordered restaurant dishes spice noodles beef order coconut shrimp tofu basil tasty restaurants asian salad 
+27	0.1	manager bill waitress tip order customer ordered gave server charged restaurant meal coupon extra groupon owner received waiter offered business 
+28	0.1	staff server owner customer restaurant visit atmosphere manager highly absolutely chef extremely bartender servers greeted beyond professional welcoming accommodating gave 
+29	0.1	indian restaurant dishes rice naan spicy curry dish ordered lamb masala buffet tasty restaurants spice tikka order vegetarian roti meal 
+30	0.1	tacos taco burrito chips guacamole cheese asada carne rice margaritas tortilla ordered burritos tortillas nachos beef chipotle enchiladas chile tasty 
+31	0.1	salad dressing cheese lettuce ordered salads grilled tomatoes caesar tomato meal greens potato spinach avocado tasty kale salmon sandwich order 
+32	0.1	und der das ist war nicht ich sehr mit auch wir ein aber den essen auf eine gut sind waren 
+33	0.1	hotel view staff staying casino parking stayed strip event vegas restaurant located resort mgm desk walking bathroom guests valet lobby 
+34	0.1	selection beers tap craft atmosphere staff draft brewery patio ale brew glass german brews bartender wines visit pub ipa bottles 
+35	0.1	restaurant prices atmosphere staff portions quality average overall dining decor meal group dishes portion restaurants priced casual ambiance tasty although 
+36	0.1	crowd youll theyre review group fact event packed dress stage walking literally giant apparently venue bowling entire parking joint festival 
+37	0.1	decor tables atmosphere seating walls restaurant patio dining chairs interior vibe ambiance lounge cocktails lighting glass seats cocktail booths upstairs 
+38	0.1	vegas las strip restaurant prices visit located places hotel mall casino restaurants location staying visiting meal highly york locals venetian 
+39	0.1	dessert cheese dish meal ordered restaurant roasted lamb cooked scallops appetizer served salmon sprouts salad dishes risotto grilled plate duck 
+40	0.1	ordered appetizer chips shrimp dip meal server cheese appetizers calamari salmon tasty entree dish waitress entrees restaurant served portion order 
+41	0.1	pasta restaurant dish ordered salad meatballs meal spaghetti olive cheese dishes ravioli veal lasagna tomato calamari eggplant appetizer parmesan dessert 
+42	0.1	options vegan vegetarian gluten staff veggie tasty ingredients selection edinburgh diet glutenfree places vegetarians atmosphere organic salads veggies absolutely tofu 
+43	0.1	bbq cheese brisket pulled sides potato ordered sauces slaw sandwich meal smoked coleslaw tasty order spicy southern cornbread potatoes juicy 
+44	0.1	buffet selection vegas buffets dessert station desserts quality crab rib seafood brunch section dishes asian plates foods filipino options sushi 
+45	0.1	server seated ordered order waiter waitress waited restaurant reservation hostess tables manager meal group bill seemed quickly reservations servers gave 
+46	0.1	dish served crispy texture creamy topped onions thick cooked slightly spicy crunchy pieces thin salty amount flavorful sliced juicy onion 
+47	0.1	pizza cheese pizzas toppings thin slice pepperoni ordered slices order sausage style oven dough ingredients delivery mozzarella chicago crispy york 
+48	0.1	selection market prices grocery foods produce shopping products section organic quality staff meats joes etc parking deli stock farmers goods 
+49	0.1	cake dessert cheesecake cupcakes bakery donut cupcake desserts pastries velvet pastry frosting moist strawberry filling caramel tasted vanilla cinnamon croissant 
+
+<150> LL/token: -9.26425
+<160> LL/token: -9.2617
+<170> LL/token: -9.25947
+<180> LL/token: -9.25731
+<190> LL/token: -9.25608
+
+0	0.1	seating patio cafe outdoor staff parking atmosphere tables plenty crepe location crepes wifi breakfast selection grab options sandwiches vibe located 
+1	0.1	staff atmosphere highly prices restaurant absolutely owner tasty portions los owned hidden owners welcoming empanadas priced cuban environment angeles visit 
+2	0.1	dining visit restaurants youll fact ingredients restaurant truly certainly review simple cleveland diners quality cuisine establishment business culinary fare pittsburgh 
+3	0.1	rice beef noodles dishes dish dumplings shrimp ordered restaurant noodle order asian spicy steamed duck chow broccoli crispy mein tofu 
+4	0.1	cooked ordered filet meal rib rare potatoes steaks restaurant sides salad waiter ribeye steakhouse dessert mignon beef lobster potato server 
+5	0.1	est pas des une mais trs cest qui avec bon dans sont vous nous jai bien par sur tait mon 
+6	0.1	restaurant phoenix staff places visit restaurants weve airport scottsdale business atmosphere charlotte valley eaten chicago visiting location pittsburgh several quality 
+7	0.1	gelato yogurt dessert toppings strawberry waffle banana vanilla smoothie scoop coconut caramel crepe treat custard serve cone creamy milk flavours 
+8	0.1	greek pita hummus salad gyro lamb rice plate restaurant falafel tasty shawarma ordered mediterranean meal order beef gyros platter portions 
+9	0.1	tea milk iced latte boba starbucks espresso teas bubble cafe ordered staff chai matcha mocha barista regular order places bean 
+10	0.1	breakfast eggs brunch toast bacon pancakes hash potatoes waffles ordered sausage benedict sunday gravy omelet omelette diner waffle biscuits browns 
+11	0.1	burgers cheese onion bacon bun rings ordered poutine order chili patty onions beef potato cooked toppings juicy cheeseburger tots tasty 
+12	0.1	shrimp crab lobster seafood oysters ordered mussels cooked chowder cajun oyster scallops order clam restaurant bang meal clams cocktail tasty 
+13	0.1	stars reviews yelp review based rating restaurant gave ordered places average visit seemed fact honestly yelpers previous expectations update expecting 
+14	0.1	tasted ordered cooked seemed soggy plate meal tasteless burnt overcooked quality salty pieces completely reviews raw served stars flavorless undercooked 
+15	0.1	quality prices places stars less average visit review theyre value higher portions rating ingredients regular overall staff portion paying extra 
+16	0.1	location parking locations mall staff located opened shopping strip chain plaza closed north visit starbucks court building employees opening tempe 
+17	0.1	sandwich sandwiches cheese beef sub deli grilled ordered order philly pastrami ham subway chips roast bacon tasty subs smoked mayo 
+18	0.1	sushi tuna salmon sashimi rice spicy tempura ayce quality miso chef order places sake restaurant pieces poke shrimp ordered nigiri 
+19	0.1	korean rice dishes beef spicy bbq restaurant kimchi tofu order ordered grill hawaiian dish meal plate bulgogi teriyaki style katsu 
+20	0.1	restaurant meal dish chef dishes dining tasting gras duck dessert foie montreal restaurants served view waiter courses chefs reservation prepared 
+21	0.1	tables restaurant server waitress seated order seemed ordered quickly greeted plates dining meal immediately upon hostess noticed served servers waited 
+22	0.1	order ordered delivery ordering customer waited location delivered placed gave extra takeout deliver received togo cashier driver stars business pickup 
+23	0.1	pho ramen noodles broth beef vietnamese noodle ordered restaurant places spicy rice order salty tasty bun banh extra flavorful miso 
+24	0.1	bartender atmosphere pub tvs staff bartenders crowd nachos friday patio saturday selection irish sunday bars packed group beers prices chips 
+25	0.1	customer customers staff employees manager business owner location employee order management attitude cashier register workers review stars establishment closed health 
+26	0.1	thai curry spicy rice dish ordered restaurant dishes spice noodles beef order shrimp coconut tofu basil tasty restaurants asian salad 
+27	0.1	manager bill waitress tip ordered customer order gave charged server meal restaurant coupon groupon extra waiter offered owner received business 
+28	0.1	staff server owner customer visit manager restaurant chef highly atmosphere absolutely extremely bartender servers greeted beyond gave accommodating professional welcoming 
+29	0.1	indian restaurant dishes rice naan spicy curry dish ordered lamb masala buffet tasty restaurants spice tikka order vegetarian meal roti 
+30	0.1	tacos taco burrito chips guacamole cheese asada carne rice margaritas tortilla ordered burritos tortillas nachos chipotle beef enchiladas chile spicy 
+31	0.1	salad dressing cheese ordered lettuce salads grilled tomatoes caesar tomato meal potato greens avocado spinach tasty salmon sandwich kale order 
+32	0.1	und der das ist war nicht ich sehr mit auch wir ein aber den essen auf eine gut sind waren 
+33	0.1	hotel view staff parking staying casino stayed strip event vegas restaurant located bathroom resort desk mgm walking valet guests lobby 
+34	0.1	selection beers tap craft atmosphere staff draft brewery ale glass bartender brew german wines patio brews visit bottles ipa pub 
+35	0.1	restaurant prices atmosphere staff portions average quality overall meal decor dining portion group priced dishes casual restaurants ambiance tasty although 
+36	0.1	youll crowd review theyre group fact dress packed walking literally event giant apparently stage joint less entire lines tao bowling 
+37	0.1	decor tables restaurant atmosphere walls seating dining chairs interior vibe ambiance lighting lounge seats booths glass patio cocktails lit building 
+38	0.1	vegas las strip restaurant visit prices located hotel places casino mall restaurants location staying visiting meal highly york locals planet 
+39	0.1	dessert cheese dish ordered salmon meal roasted restaurant cooked salad served lamb appetizer scallops duck sprouts plate grilled pudding risotto 
+40	0.1	ordered appetizer chips dip server cheese appetizers meal tasty calamari waitress shrimp entree order entrees restaurant atmosphere sangria tapas dish 
+41	0.1	pasta restaurant dish ordered salad meal meatballs spaghetti olive cheese dishes ravioli veal calamari tomato lasagna appetizer eggplant parmesan dessert 
+42	0.1	options vegan vegetarian gluten staff veggie tasty ingredients selection diet veggies glutenfree protein edinburgh salads organic vegetarians places tofu meals 
+43	0.1	bbq cheese brisket pulled sides potato ordered sandwich sauces slaw meal smoked order tasty coleslaw southern spicy cornbread potatoes barbecue 
+44	0.1	buffet selection vegas buffets dessert station desserts quality crab seafood rib brunch section dishes asian plates foods filipino options sushi 
+45	0.1	server seated order ordered waiter waitress waited restaurant hostess tables reservation manager group meal bill seemed reservations quickly servers gave 
+46	0.1	dish served crispy texture onions thick creamy cooked topped slightly crunchy pieces spicy salty thin amount flavorful juicy sliced peppers 
+47	0.1	pizza cheese pizzas toppings thin slice pepperoni ordered slices sausage order style oven dough ingredients delivery chicago mozzarella crispy york 
+48	0.1	selection market prices grocery foods produce shopping products section organic quality staff meats joes etc parking deli stock farmers goods 
+49	0.1	cake bakery cupcakes cheesecake donut dessert cupcake pastries desserts pastry velvet frosting moist croissant filling dozen tasted cinnamon strawberry caramel 
+
+<200> LL/token: -9.25466
+<210> LL/token: -9.25323
+<220> LL/token: -9.25201
+<230> LL/token: -9.25052
+<240> LL/token: -9.24974
+
+0	0.1	patio seating outdoor staff cafe atmosphere tables parking plenty location selection wifi grab vibe options located breakfast view sandwiches places 
+1	0.1	staff atmosphere highly prices restaurant absolutely portions tasty los owner welcoming hidden priced def cuban empanadas angeles environment extremely visit 
+2	0.1	dining visit restaurants fact ingredients restaurant certainly youll review truly quality simple diners cuisine establishment business fare culinary cleveland traditional 
+3	0.1	rice beef dishes noodles dish dumplings shrimp ordered restaurant noodle order asian spicy duck steamed chow broccoli crispy mein tasty 
+4	0.1	cooked ordered filet meal potatoes rib rare steaks restaurant sides salad waiter dessert ribeye steakhouse mignon lobster beef server potato 
+5	0.1	est pas des une mais trs cest qui avec bon dans sont vous nous jai bien par sur tait mon 
+6	0.1	restaurant phoenix staff places restaurants visit business airport weve scottsdale atmosphere charlotte valley owned location visiting chicago owner pittsburgh eaten 
+7	0.1	dessert crepe gelato yogurt toppings strawberry banana crepes waffle vanilla smoothie scoop caramel coconut serve treat custard cone creamy nutella 
+8	0.1	greek pita hummus salad gyro lamb rice plate restaurant falafel tasty shawarma ordered mediterranean meal order beef gyros platter portions 
+9	0.1	tea milk iced latte boba starbucks espresso cafe teas bubble ordered staff chai mocha barista matcha regular order places wifi 
+10	0.1	breakfast eggs brunch toast bacon pancakes hash potatoes waffles ordered sausage benedict sunday gravy omelet omelette diner biscuits waffle browns 
+11	0.1	burgers cheese onion bacon bun rings poutine ordered order chili patty onions beef cooked potato juicy toppings cheeseburger tots tasty 
+12	0.1	shrimp crab lobster seafood oysters ordered mussels cooked chowder cajun scallops oyster meal restaurant clam order bang clams cocktail dish 
+13	0.1	stars reviews yelp review based rating gave restaurant ordered visit places fact average seemed previous yelpers honestly update expectations mentioned 
+14	0.1	tasted ordered cooked soggy seemed tasteless meal burnt plate overcooked quality salty pieces completely reviews stars raw flavorless literally served 
+15	0.1	quality prices places stars less average theyre visit value higher review portions ingredients staff rating overall regular paying portion extra 
+16	0.1	location parking locations mall staff located opened shopping strip plaza chain closed north visit starbucks court building employees opening closer 
+17	0.1	sandwich sandwiches cheese beef sub deli grilled ordered order philly pastrami subway roast ham chips tasty bacon subs smoked mayo 
+18	0.1	sushi tuna salmon sashimi rice spicy tempura ayce quality miso chef order sake places restaurant pieces ordered shrimp poke nigiri 
+19	0.1	korean rice dishes beef bbq spicy restaurant kimchi ordered order tofu hawaiian grill dish plate meal teriyaki bulgogi katsu style 
+20	0.1	restaurant meal chef dish dishes dining dessert tasting gras foie duck montreal restaurants view waiter courses served chefs reservation prepared 
+21	0.1	tables server restaurant waitress order seated ordered seemed plates quickly meal greeted dining served immediately plate glass noticed upon servers 
+22	0.1	order ordered delivery ordering customer waited location placed delivered gave extra takeout deliver received togo driver cashier stars business pickup 
+23	0.1	pho ramen noodles broth beef vietnamese noodle ordered restaurant places spicy rice order salty bun tasty banh extra flavorful miso 
+24	0.1	bartender atmosphere tvs pub bartenders staff crowd friday nachos saturday selection patio irish bars group packed sunday beers prices chips 
+25	0.1	customer customers staff employees manager business owner location order employee management attitude cashier register review workers stars establishment closed gave 
+26	0.1	thai curry spicy rice dish ordered restaurant dishes spice noodles beef order coconut shrimp tofu basil restaurants tasty asian salad 
+27	0.1	manager bill waitress tip ordered order customer charged gave server meal coupon extra groupon restaurant waiter offered received owner business 
+28	0.1	staff server owner customer visit restaurant manager chef highly absolutely atmosphere bartender extremely servers greeted beyond gave professional accommodating guests 
+29	0.1	indian restaurant dishes rice naan spicy curry dish ordered lamb masala buffet restaurants tasty spice tikka order vegetarian roti meal 
+30	0.1	tacos taco burrito chips guacamole cheese asada carne rice margaritas tortilla burritos tortillas ordered nachos chipotle beef enchiladas chile guac 
+31	0.1	salad dressing cheese ordered lettuce salads grilled tomatoes caesar tomato meal potato avocado greens tasty spinach salmon sandwich order kale 
+32	0.1	und der das ist war nicht ich sehr mit auch wir ein aber den essen auf eine gut sind waren 
+33	0.1	hotel view parking staff staying casino stayed strip vegas bathroom restaurant located resort desk mgm walking valet event guests lobby 
+34	0.1	beers selection tap craft atmosphere staff draft brewery ale bartender glass wines cocktails brew german brews bottles visit pub ipa 
+35	0.1	restaurant prices staff atmosphere portions average quality overall meal portion decor dining group priced casual dishes restaurants tasty ambiance sizes 
+36	0.1	youll crowd theyre review group fact packed dress walking literally event giant joint apparently stage tao lines entire spent less 
+37	0.1	decor tables restaurant atmosphere walls interior seating dining chairs vibe ambiance lighting seats booths lounge glass lit staff building ceiling 
+38	0.1	vegas las strip restaurant prices visit located places hotel mall casino restaurants location visiting staying meal highly locals york planet 
+39	0.1	cheese dessert dish salmon ordered roasted meal served cooked salad duck restaurant sprouts appetizer grilled plate lamb scallops pudding goat 
+40	0.1	ordered appetizer chips dip server cheese appetizers meal tasty waitress order tapas atmosphere calamari sangria restaurant entrees entree shared overall 
+41	0.1	pasta restaurant ordered dish salad meal meatballs spaghetti olive cheese dishes ravioli veal calamari tomato lasagna appetizer eggplant dessert parmesan 
+42	0.1	options vegan vegetarian gluten staff veggie tasty ingredients selection diet protein veggies salads glutenfree organic juices edinburgh vegetarians meals places 
+43	0.1	bbq cheese brisket pulled sides potato sandwich ordered sauces slaw meal smoked order tasty coleslaw spicy southern cornbread potatoes barbecue 
+44	0.1	buffet selection vegas buffets dessert station quality desserts crab seafood rib brunch dishes section asian plates options foods filipino sushi 
+45	0.1	server seated order restaurant waited ordered waiter waitress hostess tables reservation manager group meal bill seemed reservations servers quickly gave 
+46	0.1	dish served crispy texture onions cooked thick creamy topped spicy slightly crunchy pieces amount thin salty flavorful sliced peppers juicy 
+47	0.1	pizza cheese pizzas toppings thin slice pepperoni ordered slices sausage order style oven dough ingredients delivery chicago mozzarella york crispy 
+48	0.1	selection market prices grocery foods produce shopping products section organic quality staff meats joes etc parking deli stock farmers goods 
+49	0.1	cake bakery cupcakes cheesecake donut cupcake dessert pastries desserts pastry velvet frosting croissant moist filling dozen tasted cinnamon vanilla icing 
+
+<250> LL/token: -9.24873
+<260> LL/token: -9.24836
+<270> LL/token: -9.24792
+<280> LL/token: -9.24725
+<290> LL/token: -9.24687
+
+0	0.1	patio seating outdoor atmosphere parking tables staff cafe plenty location selection vibe options view grab wifi located packed ambiance tasty 
+1	0.1	staff atmosphere highly prices restaurant absolutely tasty portions los owner def welcoming hidden empanadas cuban priced customer angeles visit extremely 
+2	0.1	dining restaurants visit ingredients fact certainly youll restaurant review truly quality simple diners cuisine establishment business culinary toronto fare traditional 
+3	0.1	rice beef dishes noodles dish dumplings shrimp ordered restaurant noodle order asian spicy duck steamed chow broccoli crispy mein tasty 
+4	0.1	cooked ordered filet meal rib rare potatoes steaks restaurant sides salad dessert waiter ribeye steakhouse lobster mignon beef server potato 
+5	0.1	est pas des une mais trs cest qui avec bon dans sont vous nous jai bien sur par tait mon 
+6	0.1	restaurant phoenix staff places restaurants visit business airport scottsdale weve atmosphere charlotte owned valley location visiting owner chicago eaten pittsburgh 
+7	0.1	dessert crepe gelato yogurt strawberry toppings crepes banana waffle vanilla scoop caramel coconut serve custard treat cone creamy milk smoothie 
+8	0.1	greek pita hummus salad gyro lamb rice plate restaurant falafel tasty shawarma ordered meal mediterranean beef order gyros platter portions 
+9	0.1	tea milk iced latte boba starbucks cafe espresso teas bubble staff ordered chai barista mocha wifi regular order matcha places 
+10	0.1	breakfast eggs brunch toast bacon pancakes hash potatoes ordered waffles sausage benedict sunday gravy omelet omelette diner biscuits waffle browns 
+11	0.1	burgers cheese onion bacon bun rings ordered poutine order chili patty beef onions cooked potato toppings juicy cheeseburger tots tasty 
+12	0.1	shrimp crab lobster seafood oysters ordered mussels cooked chowder cajun scallops oyster restaurant order meal clam clams bang dish tasty 
+13	0.1	reviews stars yelp review based rating gave restaurant ordered places visit fact seemed previous average update yelpers honestly expectations mentioned 
+14	0.1	tasted ordered cooked seemed soggy meal tasteless burnt plate overcooked salty quality completely pieces reviews raw stars flavorless undercooked literally 
+15	0.1	quality prices places stars average less theyre higher value visit portions review overall rating ingredients regular restaurants paying compared staff 
+16	0.1	location parking locations mall staff located opened shopping strip chain plaza closed north starbucks visit court employees building theyre station 
+17	0.1	sandwich sandwiches cheese beef sub deli grilled order ordered philly pastrami subway ham roast bacon chips tasty subs smoked mayo 
+18	0.1	sushi tuna salmon sashimi rice spicy tempura ayce quality miso chef order sake places restaurant ordered pieces shrimp nigiri chefs 
+19	0.1	korean rice dishes beef spicy bbq restaurant kimchi ordered grill order hawaiian tofu dish plate teriyaki meal bulgogi katsu style 
+20	0.1	restaurant meal chef dish dishes dining dessert tasting gras foie duck montreal restaurants view waiter reservation courses served chefs prepared 
+21	0.1	server tables waitress restaurant order ordered seated seemed plates meal quickly plate greeted glass served dining immediately noticed upon servers 
+22	0.1	order ordered delivery ordering customer waited location placed delivered gave takeout extra deliver received togo driver cashier stars business pickup 
+23	0.1	pho ramen noodles broth beef vietnamese noodle ordered restaurant spicy places rice salty order tasty bun banh extra miso flavorful 
+24	0.1	bartender atmosphere pub tvs staff bartenders crowd friday nachos saturday selection irish packed bars group patio beers sunday prices chips 
+25	0.1	customer customers staff employees manager business owner location order employee management attitude cashier register review workers establishment stars closed gave 
+26	0.1	thai curry spicy rice dish ordered restaurant dishes spice noodles beef order coconut shrimp tofu basil restaurants tasty tea asian 
+27	0.1	bill manager waitress tip ordered order charged gave meal server customer coupon extra groupon restaurant waiter offered received discount paying 
+28	0.1	staff server owner customer visit manager restaurant chef highly absolutely atmosphere bartender extremely servers greeted beyond gave accommodating event guests 
+29	0.1	indian restaurant dishes rice naan spicy curry dish ordered lamb masala buffet tasty spice restaurants tikka order vegetarian roti meal 
+30	0.1	tacos taco burrito chips guacamole cheese carne asada rice margaritas tortilla burritos tortillas ordered nachos chipotle enchiladas beef chile tasty 
+31	0.1	salad dressing cheese ordered lettuce salads grilled tomatoes caesar meal tomato potato avocado greens spinach tasty salmon order sandwich kale 
+32	0.1	und der das ist war nicht ich sehr mit auch wir ein aber den essen auf eine gut sind waren 
+33	0.1	hotel parking view staff casino staying stayed strip vegas bathroom located resort restaurant desk mgm walking valet event lobby guests 
+34	0.1	selection beers tap craft atmosphere staff draft brewery ale bartender glass cocktails wines brew german brews visit bottles pub ipa 
+35	0.1	restaurant staff prices atmosphere portions average quality overall meal portion decor dining group priced casual dishes tasty restaurants ambiance sizes 
+36	0.1	youll crowd theyre review fact dress group packed walking literally giant joint apparently entire tao event stomach stage lines less 
+37	0.1	decor tables restaurant atmosphere walls interior chairs seating dining lighting ambiance vibe booths seats lounge glass staff lit style ceiling 
+38	0.1	vegas las strip restaurant visit prices located places mall hotel restaurants casino location visiting staying meal locals highly york planet 
+39	0.1	cheese dessert dish salmon ordered roasted served salad meal duck cooked sprouts grilled plate lamb restaurant appetizer scallops pudding goat 
+40	0.1	ordered appetizer chips server dip cheese appetizers meal order tasty tapas waitress restaurant atmosphere sangria entrees calamari entree overall shared 
+41	0.1	pasta restaurant dish ordered salad meal meatballs spaghetti olive dishes cheese ravioli veal calamari appetizer tomato lasagna dessert eggplant parmesan 
+42	0.1	options vegan vegetarian gluten staff veggie ingredients tasty protein selection diet smoothies organic juices veggies salads glutenfree places smoothie vegetarians 
+43	0.1	bbq cheese brisket pulled sides potato ordered sandwich sauces slaw meal smoked order coleslaw tasty spicy southern cornbread potatoes barbecue 
+44	0.1	buffet selection vegas buffets dessert station quality desserts crab seafood rib brunch dishes section asian plates foods options filipino sushi 
+45	0.1	server seated order restaurant waited waitress waiter ordered hostess tables reservation manager group meal servers seemed reservations bill quickly received 
+46	0.1	dish served crispy texture onions cooked thick topped creamy spicy pieces slightly crunchy thin amount salty flavorful juicy sliced peppers 
+47	0.1	pizza cheese pizzas toppings thin slice pepperoni ordered slices sausage order style oven dough ingredients delivery chicago mozzarella york crispy 
+48	0.1	selection market prices grocery foods produce shopping products section organic quality staff meats joes etc deli parking stock farmers goods 
+49	0.1	cake bakery cupcakes cheesecake donut cupcake pastries dessert desserts pastry frosting velvet croissant moist filling dozen cinnamon tasted icing vanilla 
+
+<300> LL/token: -9.24662
+<310> LL/token: -9.24613
+<320> LL/token: -9.24597
+<330> LL/token: -9.24597
+<340> LL/token: -9.24511
+
+0	0.1	patio seating outdoor parking tables atmosphere staff plenty cafe location options view selection vibe grab dining packed ambiance located visit 
+1	0.1	staff atmosphere highly prices restaurant absolutely tasty los portions owner def welcoming cuban empanadas priced angeles customer hidden environment visit 
+2	0.1	dining visit restaurants fact ingredients certainly youll review quality restaurant truly simple diners cuisine establishment toronto business despite culinary traditional 
+3	0.1	rice beef dishes noodles dish dumplings shrimp ordered restaurant noodle order asian spicy duck steamed chow broccoli mein crispy tofu 
+4	0.1	cooked ordered filet meal rib rare potatoes steaks restaurant sides salad waiter dessert ribeye steakhouse lobster beef mignon server potato 
+5	0.1	est pas des une mais trs cest qui avec bon dans sont vous nous jai bien sur par tait mon 
+6	0.1	restaurant phoenix staff places restaurants visit business scottsdale airport weve owned charlotte valley atmosphere owner location visiting owners chicago eaten 
+7	0.1	dessert crepe gelato yogurt strawberry toppings crepes banana waffle vanilla caramel scoop coconut serve custard treat creamy cone milk nutella 
+8	0.1	greek pita hummus salad gyro lamb rice plate restaurant falafel tasty shawarma ordered mediterranean meal beef order gyros platter portions 
+9	0.1	tea milk iced latte starbucks boba cafe espresso teas bubble staff ordered wifi chai mocha barista regular places order shops 
+10	0.1	breakfast eggs brunch toast bacon pancakes hash potatoes ordered waffles sausage benedict sunday gravy omelet omelette diner biscuits waffle browns 
+11	0.1	burgers cheese onion bacon bun rings ordered poutine order chili patty onions beef potato cooked juicy cheeseburger toppings tots tasty 
+12	0.1	shrimp crab lobster seafood oysters ordered cooked mussels cajun chowder scallops oyster meal restaurant clam order clams dish tasty calamari 
+13	0.1	reviews stars yelp review based rating gave restaurant visit places ordered fact previous update seemed yelpers honestly mentioned average closed 
+14	0.1	tasted ordered cooked soggy seemed tasteless meal burnt plate overcooked salty quality pieces reviews completely stars raw flavorless undercooked served 
+15	0.1	quality prices places stars average less higher theyre value portions visit overall review rating restaurants staff paying ingredients regular compared 
+16	0.1	location parking locations mall staff located opened shopping strip plaza chain closed starbucks north visit court building employees opening theyre 
+17	0.1	sandwich sandwiches cheese beef sub deli grilled order ordered philly pastrami subway chips roast ham tasty subs bacon smoked mayo 
+18	0.1	sushi tuna salmon sashimi rice spicy tempura ayce quality miso chef order sake places restaurant ordered pieces shrimp nigiri chefs 
+19	0.1	korean rice beef dishes bbq spicy restaurant kimchi hawaiian ordered grill order tofu dish plate teriyaki meal bulgogi places poke 
+20	0.1	restaurant meal chef dish dishes dining dessert tasting gras foie montreal duck view restaurants waiter reservation courses chefs served prepared 
+21	0.1	server tables waitress order restaurant ordered seated seemed plates meal quickly plate glass served greeted noticed immediately dining upon servers 
+22	0.1	order ordered delivery ordering customer waited location placed delivered gave takeout extra deliver received togo driver cashier stars business pickup 
+23	0.1	pho ramen noodles broth beef vietnamese noodle ordered restaurant places spicy rice order salty tasty bun banh extra flavorful miso 
+24	0.1	atmosphere bartender pub tvs staff crowd bartenders friday nachos selection saturday irish bars group packed sunday beers patio prices chips 
+25	0.1	customer customers staff manager employees business owner order location employee management attitude cashier register review workers establishment stars restaurant gave 
+26	0.1	thai curry spicy rice dish ordered restaurant dishes spice noodles beef order coconut shrimp tofu basil restaurants tasty tea asian 
+27	0.1	bill manager waitress tip ordered order charged meal server gave extra customer coupon groupon restaurant waiter offered received discount paying 
+28	0.1	staff server owner customer visit manager chef restaurant highly absolutely bartender atmosphere extremely greeted servers event beyond gave guests accommodating 
+29	0.1	indian restaurant dishes rice naan spicy curry dish ordered lamb masala buffet tasty restaurants spice tikka vegetarian order meal roti 
+30	0.1	tacos taco burrito chips guacamole cheese asada carne rice margaritas tortilla ordered tortillas burritos nachos chipotle beef enchiladas chile tasty 
+31	0.1	salad dressing cheese ordered lettuce salads grilled caesar tomatoes meal tomato potato avocado greens spinach tasty salmon order sandwich kale 
+32	0.1	und der das ist war nicht ich sehr mit auch wir ein aber den essen auf eine gut sind waren 
+33	0.1	hotel casino staff staying view parking stayed strip bathroom vegas located desk resort walking mgm restaurant lobby valet hotels guests 
+34	0.1	beers selection tap craft atmosphere staff draft brewery bartender cocktails ale glass wines german brew brews bottles visit pub ipa 
+35	0.1	restaurant staff prices atmosphere portions quality average overall meal portion decor dining priced group casual dishes tasty restaurants ambiance sizes 
+36	0.1	youll theyre crowd review fact dress literally packed group walking giant entire apparently tao joint stomach event coke less stage 
+37	0.1	decor tables restaurant walls atmosphere interior chairs seating dining lighting vibe ambiance seats booths lounge glass staff lit building style 
+38	0.1	vegas las strip restaurant visit prices located places mall restaurants hotel casino location visiting staying meal locals highly york planet 
+39	0.1	cheese dessert dish salmon roasted ordered served salad meal duck cooked plate sprouts grilled scallops restaurant appetizer lamb goat smoked 
+40	0.1	ordered appetizer chips server cheese dip appetizers tapas meal order tasty waitress atmosphere restaurant sangria entrees calamari entree overall shared 
+41	0.1	pasta restaurant ordered dish salad meal meatballs spaghetti olive dishes cheese ravioli veal calamari appetizer tomato lasagna dessert eggplant parmesan 
+42	0.1	options vegan vegetarian gluten staff veggie smoothie ingredients tasty smoothies protein selection organic juices diet veggies salads glutenfree places bowls 
+43	0.1	bbq cheese brisket pulled sides potato ordered sandwich slaw sauces meal smoked tasty order coleslaw southern spicy cornbread barbecue beef 
+44	0.1	buffet selection vegas buffets dessert station quality desserts crab seafood rib brunch dishes section asian options plates foods filipino sushi 
+45	0.1	server seated order restaurant waited waitress waiter ordered hostess tables reservation manager group seemed servers meal reservations bill quickly saturday 
+46	0.1	dish crispy served texture onions cooked thick topped creamy spicy pieces slightly crunchy amount thin salty flavorful peppers sliced juicy 
+47	0.1	pizza cheese pizzas toppings thin slice pepperoni ordered slices sausage order style oven dough ingredients delivery chicago mozzarella york crispy 
+48	0.1	selection market prices grocery foods produce shopping products section organic staff quality meats joes etc deli parking stock farmers goods 
+49	0.1	cake bakery cupcakes cheesecake donut cupcake pastries dessert desserts pastry frosting velvet croissant moist filling dozen cinnamon tasted icing strawberry 
+
+<350> LL/token: -9.24525
+<360> LL/token: -9.24485
+<370> LL/token: -9.24428
+<380> LL/token: -9.24434
+<390> LL/token: -9.24409
+
+0	0.1	patio seating parking outdoor atmosphere tables staff plenty location cafe view options dining selection vibe packed ambiance grab sunday located 
+1	0.1	staff atmosphere highly prices absolutely restaurant tasty los portions owner def cuban empanadas welcoming angeles priced visit environment customer hidden 
+2	0.1	dining visit restaurants fact ingredients review certainly youll quality restaurant truly simple diners cuisine toronto business establishment despite culinary offerings 
+3	0.1	rice beef dishes noodles dish dumplings shrimp restaurant ordered noodle order asian spicy duck steamed chow broccoli tofu mein crispy 
+4	0.1	cooked ordered filet meal rib rare potatoes steaks restaurant sides salad dessert waiter ribeye steakhouse lobster mignon beef server potato 
+5	0.1	est pas des une mais trs cest qui avec bon dans sont vous nous jai bien sur par tait mon 
+6	0.1	restaurant phoenix staff restaurants places visit business weve scottsdale airport valley owned owner charlotte atmosphere visiting location cleveland owners pittsburgh 
+7	0.1	dessert crepe gelato yogurt strawberry toppings waffle crepes banana vanilla caramel scoop coconut serve custard milk creamy treat cone nutella 
+8	0.1	greek pita hummus salad gyro lamb rice plate restaurant falafel tasty shawarma ordered mediterranean meal beef order platter gyros portions 
+9	0.1	tea milk iced latte starbucks boba cafe espresso teas staff bubble wifi ordered chai barista mocha regular places order shops 
+10	0.1	breakfast eggs brunch toast bacon pancakes hash potatoes ordered waffles sausage benedict sunday gravy omelet omelette diner biscuits waffle browns 
+11	0.1	burgers cheese onion bacon bun rings poutine ordered order chili patty potato onions cooked beef cheeseburger toppings juicy tots tasty 
+12	0.1	shrimp crab lobster seafood oysters ordered cooked mussels scallops cajun chowder oyster meal restaurant clam dish order calamari clams tasty 
+13	0.1	reviews stars yelp review based rating gave visit restaurant places previous ordered fact update yelpers seemed closed honestly mentioned expecting 
+14	0.1	tasted ordered cooked seemed soggy meal tasteless burnt plate overcooked salty quality completely reviews pieces stars raw flavorless waitress undercooked 
+15	0.1	quality prices stars places average less higher theyre value portions overall rating visit review restaurants paying compared ingredients staff regular 
+16	0.1	location parking locations staff mall located opened shopping strip chain plaza starbucks closed visit north court employees station opening building 
+17	0.1	sandwich sandwiches cheese beef sub deli grilled ordered order philly pastrami subway chips roast ham tasty bacon subs smoked mayo 
+18	0.1	sushi tuna salmon sashimi rice spicy tempura ayce quality miso chef restaurant sake order ordered places shrimp pieces nigiri chefs 
+19	0.1	korean rice dishes beef spicy bbq restaurant kimchi grill hawaiian order ordered tofu poke teriyaki plate dish bulgogi meal places 
+20	0.1	restaurant meal chef dish dining dishes dessert tasting gras foie view montreal restaurants duck waiter reservation courses chefs served prepared 
+21	0.1	server waitress tables order ordered restaurant seated seemed plates meal plate quickly glass served greeted immediately noticed waiter dining upon 
+22	0.1	order ordered delivery ordering customer waited location placed delivered gave takeout extra deliver received togo driver cashier stars pickup business 
+23	0.1	pho ramen noodles broth beef vietnamese noodle ordered restaurant places spicy rice order salty tasty bun banh extra miso flavorful 
+24	0.1	atmosphere bartender pub tvs staff crowd bartenders friday nachos selection saturday irish bars group packed beers sunday patio prices chips 
+25	0.1	customer customers staff manager employees business owner order location management employee attitude cashier review register workers restaurant establishment stars gave 
+26	0.1	thai curry spicy rice dish ordered restaurant dishes spice noodles beef coconut order shrimp tofu basil restaurants tasty tea salad 
+27	0.1	bill manager tip waitress ordered order charged meal gave server extra coupon groupon customer restaurant waiter offered received discount paying 
+28	0.1	staff server owner customer visit manager chef highly restaurant absolutely atmosphere bartender extremely servers greeted event beyond gave guests accommodating 
+29	0.1	indian restaurant dishes rice naan spicy curry dish ordered lamb masala buffet tasty restaurants spice tikka order vegetarian roti paneer 
+30	0.1	tacos taco chips burrito guacamole cheese asada carne rice margaritas tortilla ordered tortillas burritos nachos chipotle enchiladas beef chile tasty 
+31	0.1	salad dressing cheese ordered lettuce salads grilled caesar tomatoes tomato meal potato avocado greens spinach tasty salmon sandwich order ranch 
+32	0.1	und der das ist war nicht ich sehr mit auch wir ein aber den essen auf eine gut sind waren 
+33	0.1	hotel casino staff staying stayed view parking bathroom vegas strip located resort walking desk mgm restaurant lobby valet hotels lounge 
+34	0.1	beers selection tap craft atmosphere staff bartender draft brewery cocktails ale glass wines brew german brews bottles pub ipa visit 
+35	0.1	restaurant staff atmosphere prices portions quality average portion overall meal decor priced dining group casual dishes tasty restaurants sizes ambiance 
+36	0.1	youll theyre crowd review literally fact dress walking group packed giant entire apparently coke less joint stomach tao event spent 
+37	0.1	decor tables restaurant walls atmosphere chairs interior seating dining lighting vibe seats ambiance booths lounge glass staff building lit style 
+38	0.1	vegas las strip restaurant visit prices located mall places hotel restaurants casino location visiting staying meal highly locals york planet 
+39	0.1	cheese dessert dish salmon roasted served duck ordered salad meal cooked sprouts plate lamb grilled restaurant scallops appetizer goat potatoes 
+40	0.1	ordered appetizer server cheese dip appetizers chips tapas order tasty atmosphere restaurant meal waitress entrees sangria entree calamari shared overall 
+41	0.1	pasta restaurant ordered dish salad meal meatballs spaghetti olive dishes cheese ravioli veal calamari appetizer lasagna tomato dessert eggplant parmesan 
+42	0.1	options vegan vegetarian gluten staff veggie smoothie ingredients tasty meal smoothies protein juices organic veggies selection salads diet glutenfree bowls 
+43	0.1	bbq cheese brisket pulled sides potato ordered sandwich slaw sauces meal order smoked tasty coleslaw southern cornbread spicy barbecue potatoes 
+44	0.1	buffet selection vegas buffets dessert station quality desserts crab seafood rib brunch section dishes asian plates options foods filipino sushi 
+45	0.1	server seated order restaurant waited waitress waiter ordered hostess tables reservation manager group seemed servers reservations meal bill quickly saturday 
+46	0.1	dish crispy served texture onions cooked thick creamy pieces spicy topped slightly crunchy thin amount salty flavorful juicy sliced peppers 
+47	0.1	pizza cheese pizzas toppings thin slice pepperoni ordered slices sausage style order oven dough ingredients delivery chicago mozzarella york crispy 
+48	0.1	selection market prices grocery foods produce shopping products section organic quality staff meats joes etc parking deli stock farmers goods 
+49	0.1	cake bakery cupcakes cheesecake donut cupcake pastries dessert desserts pastry croissant frosting velvet moist filling dozen cinnamon tasted icing strawberry 
+
+<400> LL/token: -9.24391
+<410> LL/token: -9.24374
+<420> LL/token: -9.24351
+<430> LL/token: -9.24307
+<440> LL/token: -9.24293
+
+0	0.1	patio seating parking outdoor atmosphere tables staff plenty location view dining options selection ambiance vibe packed cafe sunday grab located 
+1	0.1	staff atmosphere highly prices absolutely restaurant tasty los owner portions def empanadas cuban customer welcoming angeles priced visit hidden environment 
+2	0.1	dining visit fact restaurants certainly ingredients review quality restaurant youll truly simple diners cuisine establishment despite toronto business less offerings 
+3	0.1	rice beef dishes noodles dish dumplings shrimp ordered restaurant noodle asian order spicy duck steamed chow broccoli mein tofu tasty 
+4	0.1	cooked ordered filet meal rib potatoes rare steaks restaurant sides salad dessert waiter ribeye steakhouse lobster mignon beef server potato 
+5	0.1	est pas des une mais trs cest qui avec bon dans sont vous nous jai bien sur par tait mon 
+6	0.1	restaurant phoenix staff places restaurants visit business airport weve scottsdale owned owner valley charlotte atmosphere cleveland owners visiting quality pittsburgh 
+7	0.1	dessert crepe gelato yogurt strawberry toppings crepes waffle banana vanilla caramel scoop serve coconut custard milk creamy treat cone nutella 
+8	0.1	greek pita hummus salad gyro lamb rice plate restaurant falafel tasty shawarma ordered mediterranean meal beef order gyros platter portions 
+9	0.1	tea milk iced latte starbucks boba cafe espresso teas staff bubble wifi ordered chai mocha barista regular places shops order 
+10	0.1	breakfast eggs brunch toast bacon pancakes hash potatoes ordered waffles sausage benedict sunday gravy omelet omelette diner biscuits waffle browns 
+11	0.1	burgers cheese onion bacon bun rings poutine ordered order chili patty potato onions cooked beef cheeseburger toppings juicy tots tasty 
+12	0.1	shrimp crab lobster seafood oysters ordered cooked mussels scallops cajun chowder restaurant oyster meal calamari clam dish order clams tasty 
+13	0.1	reviews stars yelp review based rating gave visit restaurant places ordered fact update previous closed seemed yelpers mentioned honestly expecting 
+14	0.1	tasted ordered cooked seemed soggy meal burnt tasteless plate overcooked reviews salty quality completely pieces stars waitress raw flavorless undercooked 
+15	0.1	quality prices stars places average less higher value theyre portions overall rating review visit restaurants ingredients paying compared staff regular 
+16	0.1	location parking locations staff mall located opened shopping chain strip starbucks plaza visit closed north court employees mcdonalds theyre station 
+17	0.1	sandwich sandwiches cheese beef sub deli grilled ordered order philly pastrami chips subway roast ham subs tasty bacon smoked mayo 
+18	0.1	sushi tuna salmon sashimi rice tempura ayce spicy quality miso chef restaurant sake order ordered places pieces shrimp nigiri chefs 
+19	0.1	korean rice dishes beef spicy bbq restaurant kimchi hawaiian grill order ordered poke tofu teriyaki plate bulgogi dish meal places 
+20	0.1	restaurant meal chef dining dish dishes dessert tasting gras foie view montreal restaurants waiter duck reservation courses chefs prepared served 
+21	0.1	server waitress tables order ordered restaurant seated plates seemed meal plate quickly glass served waiter noticed greeted immediately dining servers 
+22	0.1	order ordered delivery ordering customer waited location delivered placed gave takeout extra deliver received togo driver stars cashier pickup business 
+23	0.1	pho ramen noodles broth beef vietnamese noodle ordered restaurant places spicy rice order salty tasty bun banh extra miso flavorful 
+24	0.1	atmosphere bartender pub tvs crowd staff bartenders friday nachos selection saturday irish bars group packed beers sunday chips prices patio 
+25	0.1	customer customers manager staff employees business owner order management location employee attitude cashier review register restaurant establishment workers gave speak 
+26	0.1	thai curry spicy rice dish ordered restaurant dishes spice noodles beef order coconut shrimp tofu basil tea tasty restaurants salad 
+27	0.1	bill tip manager waitress ordered order charged server meal gave extra coupon groupon customer restaurant waiter discount received offered paying 
+28	0.1	staff server owner customer visit chef manager highly restaurant absolutely atmosphere bartender extremely event greeted servers beyond gave guests accommodating 
+29	0.1	indian restaurant dishes rice naan spicy curry dish ordered lamb masala buffet tasty restaurants spice tikka vegetarian order roti paneer 
+30	0.1	tacos taco chips burrito guacamole cheese carne asada rice margaritas tortilla tortillas burritos nachos ordered enchiladas chipotle beef chile guac 
+31	0.1	salad dressing cheese ordered lettuce salads grilled caesar tomatoes tomato meal potato avocado greens spinach tasty salmon sandwich order ranch 
+32	0.1	und der das ist war nicht ich sehr mit auch wir ein aber den essen auf eine gut sind waren 
+33	0.1	hotel staff casino staying bathroom stayed view parking strip vegas located desk resort walking mgm lobby restaurant restroom bathrooms hotels 
+34	0.1	beers selection tap craft atmosphere staff bartender brewery draft cocktails glass ale wines brew german bottles brews visit pub ipa 
+35	0.1	restaurant staff portions prices atmosphere quality portion overall average meal decor priced casual group dining tasty dishes restaurants sizes ambiance 
+36	0.1	youll theyre review crowd literally fact dress walking packed group giant apparently stomach joint entire coke tao less tiny mention 
+37	0.1	decor tables restaurant walls atmosphere chairs interior seating dining lighting vibe ambiance seats booths staff lounge glass lit style building 
+38	0.1	vegas las strip restaurant visit prices located mall places hotel casino restaurants location visiting staying meal highly york locals planet 
+39	0.1	cheese dessert dish salmon roasted duck served salad meal ordered cooked sprouts plate lamb grilled appetizer scallops restaurant goat smoked 
+40	0.1	ordered appetizer server cheese dip appetizers tapas order tasty atmosphere restaurant entrees meal sangria waitress entree chips group shared waiter 
+41	0.1	pasta restaurant ordered dish salad meal meatballs spaghetti olive dishes cheese ravioli veal calamari appetizer tomato dessert lasagna eggplant parmesan 
+42	0.1	options vegan vegetarian gluten veggie staff smoothie ingredients tasty meal smoothies protein veggies juices organic salads diet glutenfree selection bowls 
+43	0.1	bbq cheese brisket pulled sides potato ordered sandwich slaw sauces meal smoked order tasty coleslaw southern cornbread spicy barbecue potatoes 
+44	0.1	buffet selection vegas buffets dessert station quality desserts crab seafood rib brunch section dishes asian options foods plates filipino sushi 
+45	0.1	server seated restaurant order waited waitress waiter ordered hostess tables manager reservation group seemed servers reservations meal quickly bill saturday 
+46	0.1	dish crispy served texture onions cooked thick pieces spicy topped creamy crunchy slightly thin amount salty flavorful juicy peppers sliced 
+47	0.1	pizza cheese pizzas toppings thin slice pepperoni ordered slices sausage style order oven dough ingredients delivery chicago mozzarella york crispy 
+48	0.1	selection market prices grocery foods produce shopping products section organic quality staff meats joes etc deli parking stock farmers goods 
+49	0.1	cake bakery cupcakes cheesecake donut cupcake pastries dessert desserts pastry frosting velvet croissant moist filling dozen cinnamon tasted icing macarons 
+
+<450> LL/token: -9.24313
+<460> LL/token: -9.24316
+<470> LL/token: -9.24316
+<480> LL/token: -9.24272
+<490> LL/token: -9.24278
+
+0	0.1	patio seating parking outdoor atmosphere tables staff plenty location view dining options selection packed ambiance vibe sunday saturday located grab 
+1	0.1	staff atmosphere highly prices absolutely restaurant tasty los owner portions def cuban customer empanadas welcoming visit angeles hidden priced environment 
+2	0.1	dining visit fact restaurants ingredients certainly review quality youll restaurant truly simple diners cuisine toronto despite establishment business less upon 
+3	0.1	rice beef dishes noodles dish dumplings shrimp ordered restaurant noodle order asian spicy duck steamed chow broccoli tofu mein crispy 
+4	0.1	cooked ordered filet rib meal potatoes rare steaks restaurant sides salad dessert ribeye waiter steakhouse beef lobster mignon server potato 
+5	0.1	est pas des une mais trs cest qui avec bon dans sont vous nous jai bien sur par tait mon 
+6	0.1	restaurant phoenix staff places restaurants visit business airport weve scottsdale owned valley charlotte owner cleveland owners atmosphere visiting pittsburgh quality 
+7	0.1	dessert crepe gelato yogurt strawberry toppings crepes banana waffle vanilla caramel scoop serve coconut milk custard creamy treat cone nutella 
+8	0.1	greek pita hummus salad gyro lamb rice plate restaurant falafel tasty shawarma ordered mediterranean meal beef order gyros platter portions 
+9	0.1	tea milk iced latte cafe starbucks boba espresso staff teas bubble wifi ordered chai mocha barista regular places shops pastries 
+10	0.1	breakfast eggs brunch toast bacon pancakes hash potatoes ordered waffles benedict sausage sunday gravy omelet omelette diner biscuits waffle browns 
+11	0.1	burgers cheese onion bacon bun rings poutine ordered order chili patty onions potato cooked beef cheeseburger toppings juicy tots tasty 
+12	0.1	shrimp crab lobster seafood oysters ordered cooked mussels scallops cajun chowder oyster meal restaurant order clam calamari dish clams tasty 
+13	0.1	reviews yelp stars review based rating gave visit places restaurant closed update ordered previous fact yelpers seemed mentioned honestly expecting 
+14	0.1	tasted ordered cooked seemed meal soggy tasteless burnt overcooked plate salty quality reviews completely stars pieces raw waitress flavorless undercooked 
+15	0.1	quality prices stars places average less higher value overall theyre portions rating review restaurants visit compared ingredients paying priced standard 
+16	0.1	location parking locations staff mall located opened shopping chain strip starbucks plaza closed visit north court employees theyre mcdonalds station 
+17	0.1	sandwich sandwiches cheese beef sub deli grilled ordered order philly pastrami chips subway roast ham tasty subs bacon smoked mayo 
+18	0.1	sushi tuna salmon sashimi rice tempura ayce spicy quality miso chef sake order restaurant ordered places shrimp pieces nigiri chefs 
+19	0.1	korean rice dishes beef spicy bbq restaurant kimchi grill hawaiian order poke ordered tofu plate teriyaki places bulgogi meal dish 
+20	0.1	restaurant meal chef dining dish dishes dessert tasting gras foie view montreal waiter restaurants duck reservation courses chefs prepared served 
+21	0.1	server waitress ordered tables order restaurant plates seated meal seemed plate glass quickly served waiter noticed dining greeted immediately servers 
+22	0.1	order ordered delivery ordering customer waited location placed delivered gave extra takeout deliver received driver togo cashier stars pickup business 
+23	0.1	pho ramen noodles broth beef vietnamese noodle ordered restaurant places spicy rice order salty tasty bun banh extra miso asian 
+24	0.1	atmosphere bartender pub tvs crowd staff bartenders friday nachos saturday selection irish bars group packed beers sunday prices chips patio 
+25	0.1	customer customers manager staff employees business owner order management location employee attitude cashier review register restaurant establishment workers gave speak 
+26	0.1	thai curry spicy rice dish ordered restaurant dishes spice noodles beef order coconut shrimp tofu basil tasty tea restaurants asian 
+27	0.1	bill tip waitress manager ordered order charged meal server gave extra coupon groupon customer restaurant waiter discount paying received offered 
+28	0.1	staff server owner customer visit manager chef highly restaurant absolutely atmosphere bartender event extremely greeted servers gave beyond guests accommodating 
+29	0.1	indian restaurant dishes rice naan spicy curry dish ordered lamb masala buffet tasty restaurants spice tikka vegetarian order roti paneer 
+30	0.1	tacos taco chips burrito guacamole cheese asada carne rice margaritas tortilla nachos tortillas burritos ordered enchiladas chipotle beef chile guac 
+31	0.1	salad dressing cheese ordered lettuce salads grilled caesar tomatoes tomato meal potato greens tasty spinach avocado salmon sandwich order ranch 
+32	0.1	und der das ist war nicht ich sehr mit auch wir ein aber den essen auf eine gut sind waren 
+33	0.1	hotel staff casino staying bathroom stayed view parking strip vegas located resort desk walking mgm lobby restroom bathrooms restaurant hotels 
+34	0.1	beers selection tap craft atmosphere staff bartender draft brewery cocktails ale glass wines brew german brews pub bottles visit ipa 
+35	0.1	restaurant staff portions atmosphere prices quality portion overall meal average decor priced casual dining group tasty dishes sizes restaurants ambiance 
+36	0.1	youll theyre review crowd fact literally dress walking packed giant stomach group coke entire apparently joint tao less tiny mention 
+37	0.1	decor tables restaurant walls atmosphere chairs interior seating dining lighting seats vibe ambiance booths staff lounge glass lit style building 
+38	0.1	vegas las strip restaurant visit prices located mall places hotel restaurants casino location visiting staying meal locals highly york planet 
+39	0.1	cheese dessert dish salmon duck roasted served salad meal cooked ordered sprouts plate lamb restaurant grilled appetizer scallops smoked goat 
+40	0.1	ordered appetizer server cheese appetizers dip tapas tasty restaurant order atmosphere entrees sangria meal waitress group cocktails entree waiter shared 
+41	0.1	pasta restaurant ordered dish salad meal meatballs spaghetti olive cheese dishes ravioli veal calamari appetizer tomato dessert lasagna eggplant parmesan 
+42	0.1	options vegan vegetarian gluten veggie staff smoothie ingredients tasty meal smoothies protein veggies organic juices selection salads glutenfree diet bowls 
+43	0.1	bbq cheese brisket pulled sides ordered potato sandwich slaw sauces meal smoked order tasty coleslaw southern spicy cornbread barbecue potatoes 
+44	0.1	buffet selection vegas buffets station dessert quality desserts crab seafood rib brunch section dishes asian options plates foods filipino sushi 
+45	0.1	server seated restaurant order waited waitress waiter ordered hostess tables manager reservation group seemed servers reservations quickly meal bill immediately 
+46	0.1	dish crispy served texture cooked onions thick pieces spicy creamy topped crunchy thin amount slightly salty chips flavorful peppers juicy 
+47	0.1	pizza cheese pizzas toppings thin slice pepperoni ordered slices sausage order style oven dough ingredients delivery chicago mozzarella crispy york 
+48	0.1	selection market prices grocery foods produce shopping products section organic quality staff meats joes parking etc deli stock farmers goods 
+49	0.1	cake bakery cupcakes donut cheesecake cupcake pastries dessert desserts pastry frosting croissant velvet moist filling dozen tasted cinnamon icing macarons 
+
+<500> LL/token: -9.24284
+<510> LL/token: -9.24256
+<520> LL/token: -9.24248
+<530> LL/token: -9.24255
+<540> LL/token: -9.24253
+
+0	0.1	patio seating parking outdoor atmosphere tables staff plenty location view dining options selection ambiance packed vibe sunday saturday building casual 
+1	0.1	staff atmosphere highly prices absolutely restaurant los tasty owner portions def cuban customer empanadas welcoming angeles visit hidden priced environment 
+2	0.1	dining visit fact restaurants ingredients certainly review quality restaurant youll simple truly diners despite cuisine establishment toronto less business standard 
+3	0.1	rice beef dishes noodles dish dumplings shrimp restaurant ordered noodle order asian spicy duck steamed chow tofu broccoli mein crispy 
+4	0.1	cooked ordered filet meal rib potatoes rare steaks restaurant sides salad dessert waiter ribeye steakhouse lobster beef mignon server potato 
+5	0.1	est pas des une mais trs cest qui avec bon dans sont vous nous jai bien sur par tait mon 
+6	0.1	restaurant phoenix staff restaurants places visit business airport weve scottsdale owned owner charlotte valley cleveland atmosphere owners visiting location pittsburgh 
+7	0.1	dessert crepe gelato yogurt strawberry toppings crepes waffle banana vanilla caramel scoop milk serve coconut custard creamy treat cone nutella 
+8	0.1	greek pita hummus salad gyro lamb rice plate restaurant falafel tasty shawarma ordered mediterranean meal beef order platter gyros portions 
+9	0.1	tea milk iced latte cafe starbucks boba espresso staff teas bubble wifi ordered chai barista mocha regular places shops pastries 
+10	0.1	breakfast eggs brunch toast bacon pancakes hash potatoes ordered sausage waffles benedict sunday gravy omelet diner omelette biscuits waffle browns 
+11	0.1	burgers cheese onion bacon bun rings poutine ordered order chili patty potato onions cooked beef juicy cheeseburger toppings tots tasty 
+12	0.1	shrimp crab lobster seafood oysters ordered cooked mussels scallops cajun chowder restaurant oyster meal calamari clam dish order tasty clams 
+13	0.1	reviews yelp review stars based rating gave visit places fact restaurant closed previous ordered update yelpers seemed mentioned honestly order 
+14	0.1	tasted ordered cooked seemed meal soggy tasteless burnt overcooked reviews quality salty plate completely stars pieces waitress raw flavorless undercooked 
+15	0.1	quality prices stars places average less higher value overall theyre rating portions review restaurants visit paying compared ingredients staff priced 
+16	0.1	location parking locations staff mall located opened shopping chain starbucks strip plaza visit closed north employees court theyre mcdonalds station 
+17	0.1	sandwich sandwiches cheese beef sub deli grilled ordered order philly pastrami chips subway roast tasty ham subs bacon smoked mayo 
+18	0.1	sushi tuna salmon sashimi rice ayce tempura spicy quality miso chef restaurant sake order places ordered pieces shrimp nigiri chefs 
+19	0.1	korean rice beef spicy dishes bbq restaurant kimchi grill hawaiian order poke ordered tofu plate teriyaki meal places bulgogi dish 
+20	0.1	restaurant meal chef dining dish dishes dessert tasting gras foie view restaurants waiter montreal reservation duck courses chefs prepared served 
+21	0.1	server waitress ordered order tables restaurant plates meal plate seemed seated glass served quickly waiter noticed dining servers immediately greeted 
+22	0.1	order ordered delivery ordering customer waited location placed delivered gave takeout extra deliver received driver togo stars cashier pickup business 
+23	0.1	pho ramen noodles broth beef vietnamese noodle ordered restaurant places spicy rice order salty tasty banh bun extra miso flavorful 
+24	0.1	atmosphere bartender pub tvs crowd staff bartenders friday saturday selection irish nachos bars group packed beers sunday prices chips karaoke 
+25	0.1	customer customers manager staff employees business owner order management location employee attitude cashier review register establishment restaurant speak gave workers 
+26	0.1	thai curry spicy rice dish ordered restaurant dishes spice noodles beef coconut order shrimp tofu basil tea tasty restaurants asian 
+27	0.1	bill tip waitress manager ordered order charged meal server gave extra coupon groupon waiter customer restaurant discount paying offered received 
+28	0.1	staff server owner customer visit manager chef restaurant highly absolutely atmosphere bartender event greeted extremely servers beyond guests gave accommodating 
+29	0.1	indian restaurant dishes rice naan spicy curry dish lamb ordered masala buffet tasty restaurants spice tikka vegetarian order roti paneer 
+30	0.1	tacos taco chips burrito guacamole cheese asada carne rice margaritas tortilla ordered tortillas burritos nachos enchiladas chipotle beef chile guac 
+31	0.1	salad dressing cheese ordered lettuce salads grilled caesar tomatoes tomato meal potato spinach greens tasty avocado salmon sandwich order ranch 
+32	0.1	und der das ist war nicht ich sehr mit auch wir ein aber den essen auf eine gut sind waren 
+33	0.1	hotel staff casino staying bathroom stayed view vegas parking strip located resort desk walking mgm restroom lobby bathrooms restaurant security 
+34	0.1	beers selection tap craft atmosphere staff draft brewery bartender ale cocktails glass wines brew german pub brews visit bottles ipa 
+35	0.1	restaurant staff portions prices atmosphere quality portion meal overall average decor priced tasty casual group dining dishes sizes restaurants ambiance 
+36	0.1	youll theyre review literally fact dress crowd walking stomach joint giant apparently entire packed coke mention tao group less tiny 
+37	0.1	decor tables restaurant walls atmosphere chairs interior seating dining vibe lighting seats ambiance booths staff style building lounge lit glass 
+38	0.1	vegas las strip restaurant visit located prices mall places hotel casino restaurants location visiting staying meal locals highly york hidden 
+39	0.1	cheese dessert dish salmon duck served roasted meal salad cooked ordered sprouts plate grilled lamb restaurant smoked appetizer scallops dishes 
+40	0.1	ordered appetizer server cheese appetizers dip tapas order atmosphere tasty restaurant entrees sangria waitress cocktails meal group entree overall shared 
+41	0.1	pasta restaurant ordered dish salad meal meatballs spaghetti olive dishes cheese ravioli veal calamari appetizer tomato lasagna dessert eggplant parmesan 
+42	0.1	options vegan vegetarian gluten veggie staff smoothie ingredients meal tasty smoothies protein veggies organic juices salads selection glutenfree diet bowls 
+43	0.1	bbq cheese brisket pulled sides potato ordered sandwich slaw sauces meal tasty order smoked coleslaw southern cornbread spicy barbecue wing 
+44	0.1	buffet selection vegas buffets station dessert quality desserts crab seafood rib brunch section dishes asian foods options plates filipino sushi 
+45	0.1	server seated restaurant order waited waitress ordered waiter hostess tables manager reservation group seemed servers meal reservations quickly bill immediately 
+46	0.1	dish crispy served texture cooked onions thick pieces spicy topped creamy crunchy slightly thin amount salty chips flavorful peppers juicy 
+47	0.1	pizza cheese pizzas toppings thin slice pepperoni ordered slices sausage style order oven dough ingredients delivery chicago mozzarella york crispy 
+48	0.1	selection market prices grocery foods produce shopping products section organic quality staff meats joes etc parking deli stock farmers goods 
+49	0.1	cake bakery cupcakes donut cheesecake cupcake pastries dessert desserts pastry frosting croissant velvet moist filling dozen cinnamon tasted icing macarons 
+
+<550> LL/token: -9.24244
+<560> LL/token: -9.24252
+<570> LL/token: -9.24209
+<580> LL/token: -9.2422
+<590> LL/token: -9.24233
+
+0	0.1	patio seating parking outdoor atmosphere tables staff plenty location view dining options selection ambiance packed sunday vibe saturday casual visit 
+1	0.1	staff atmosphere highly prices absolutely restaurant los tasty portions owner def welcoming customer cuban empanadas visit angeles hidden priced environment 
+2	0.1	dining visit restaurants fact certainly ingredients review quality restaurant simple youll diners truly cuisine despite toronto establishment less business upon 
+3	0.1	rice beef dishes noodles dish dumplings shrimp restaurant ordered noodle order asian spicy duck steamed chow broccoli tofu mein crispy 
+4	0.1	cooked ordered filet meal rib potatoes rare steaks restaurant sides salad dessert waiter ribeye steakhouse lobster beef mignon server potato 
+5	0.1	est pas des une mais trs cest qui avec bon dans sont vous nous jai bien sur par tait mon 
+6	0.1	restaurant phoenix staff restaurants places visit business weve airport scottsdale owned owner cleveland valley charlotte atmosphere owners visiting location pittsburgh 
+7	0.1	dessert crepe gelato yogurt strawberry toppings crepes banana waffle vanilla caramel scoop coconut serve milk custard creamy treat cone desserts 
+8	0.1	greek pita hummus salad gyro lamb rice plate restaurant falafel tasty shawarma ordered mediterranean meal beef order gyros platter eastern 
+9	0.1	tea milk iced cafe latte starbucks boba espresso staff teas bubble wifi ordered chai barista mocha regular places shops pastries 
+10	0.1	breakfast eggs brunch toast bacon pancakes hash potatoes ordered waffles benedict sausage sunday gravy omelet omelette diner biscuits waffle browns 
+11	0.1	burgers cheese onion bacon bun rings poutine ordered order chili patty potato cooked onions beef cheeseburger toppings juicy tots tasty 
+12	0.1	shrimp crab lobster seafood oysters ordered cooked mussels scallops restaurant cajun chowder calamari oyster meal dish order clam clams tasty 
+13	0.1	reviews yelp review stars based rating gave visit places restaurant closed fact previous update yelpers ordered mentioned seemed honestly rave 
+14	0.1	ordered tasted cooked seemed meal soggy burnt tasteless reviews overcooked quality salty plate completely stars pieces waitress raw flavorless undercooked 
+15	0.1	quality prices stars average places less higher overall value rating portions theyre restaurants review compared paying visit ingredients priced standard 
+16	0.1	location parking locations staff mall located opened shopping chain starbucks visit strip plaza north closed employees theyre court mcdonalds station 
+17	0.1	sandwich sandwiches cheese beef sub deli grilled ordered order philly pastrami subway roast chips ham tasty bacon subs smoked mayo 
+18	0.1	sushi tuna salmon sashimi rice tempura ayce spicy quality miso chef restaurant sake order ordered places shrimp pieces nigiri chefs 
+19	0.1	korean rice dishes spicy beef bbq restaurant grill kimchi hawaiian order poke ordered tofu teriyaki plate places bulgogi meal dish 
+20	0.1	restaurant meal chef dining dish dishes dessert tasting gras foie view waiter montreal restaurants reservation duck courses prepared chefs served 
+21	0.1	server waitress tables order ordered restaurant plates plate meal seemed seated glass served waiter quickly noticed servers dining napkins glasses 
+22	0.1	order ordered delivery ordering customer waited location delivered placed gave takeout extra deliver received driver stars togo cashier pickup business 
+23	0.1	pho ramen noodles broth beef vietnamese noodle ordered restaurant places spicy rice order salty tasty bun banh extra miso asian 
+24	0.1	atmosphere bartender tvs crowd pub staff bartenders friday saturday selection irish group bars packed beers sunday nachos prices tables karaoke 
+25	0.1	customer customers manager staff employees business owner order management location attitude employee cashier review register gave restaurant establishment speak workers 
+26	0.1	thai curry spicy rice dish ordered restaurant dishes spice noodles beef order coconut shrimp tofu basil tea restaurants tasty salad 
+27	0.1	bill tip waitress manager ordered order charged meal extra server gave coupon groupon waiter restaurant customer paying discount received offered 
+28	0.1	staff server owner customer visit manager restaurant chef highly absolutely atmosphere event bartender greeted extremely servers guests beyond gave accommodating 
+29	0.1	indian restaurant dishes rice naan spicy curry dish ordered lamb masala buffet tasty restaurants spice tikka vegetarian order roti paneer 
+30	0.1	tacos taco chips burrito guacamole asada carne cheese rice margaritas tortilla tortillas burritos ordered nachos enchiladas chipotle beef chile guac 
+31	0.1	salad dressing cheese ordered lettuce salads grilled caesar tomatoes tomato meal potato spinach greens avocado tasty salmon sandwich order ranch 
+32	0.1	und der das ist war nicht ich sehr mit auch wir ein aber den essen auf eine gut sind waren 
+33	0.1	hotel bathroom staff staying casino stayed vegas view parking strip desk located resort walking mgm bathrooms lobby restroom security lounge 
+34	0.1	beers selection tap craft atmosphere staff draft brewery bartender ale wines glass pub cocktails brew german brews visit bottles ipa 
+35	0.1	restaurant staff portions atmosphere prices quality portion meal overall decor average priced tasty group casual dining dishes sizes restaurants extremely 
+36	0.1	youll theyre review fact literally walking dress stomach giant joint crowd entire apparently coke tiny mention tip spent less heres 
+37	0.1	decor tables restaurant walls atmosphere interior chairs seating dining lighting vibe seats booths ambiance staff style building lit glass windows 
+38	0.1	vegas las strip restaurant located prices visit mall hotel places casino restaurants location visiting staying locals york highly meal hidden 
+39	0.1	cheese dessert dish salmon duck served roasted meal salad cooked ordered sprouts plate restaurant lamb grilled smoked appetizer dishes scallops 
+40	0.1	ordered appetizer server cheese appetizers dip tapas order atmosphere tasty cocktails sangria restaurant entrees waitress group shared meal overall entree 
+41	0.1	pasta restaurant ordered dish salad meal meatballs spaghetti olive dishes cheese ravioli veal calamari appetizer dessert tomato lasagna eggplant parmesan 
+42	0.1	options vegan vegetarian gluten veggie staff smoothie ingredients meal tasty smoothies protein veggies organic juices salads glutenfree selection diet bowls 
+43	0.1	bbq cheese brisket pulled sides ordered sandwich potato slaw sauces meal order smoked tasty coleslaw southern cornbread spicy barbecue wing 
+44	0.1	buffet selection vegas buffets station dessert quality desserts crab seafood rib brunch section dishes asian foods options plates filipino sushi 
+45	0.1	server seated restaurant order waitress waited ordered waiter hostess tables manager reservation group seemed quickly servers meal reservations bill immediately 
+46	0.1	dish crispy served texture cooked onions thick spicy pieces creamy topped crunchy amount slightly thin chips salty flavorful meal peppers 
+47	0.1	pizza cheese pizzas toppings thin slice pepperoni ordered slices sausage order style oven dough ingredients delivery chicago mozzarella crispy york 
+48	0.1	selection market prices grocery foods produce shopping products section organic quality staff meats joes parking etc deli stock farmers goods 
+49	0.1	cake bakery cupcakes donut cheesecake cupcake pastries dessert desserts pastry croissant frosting velvet moist filling dozen cinnamon tasted icing macarons 
+
+<600> LL/token: -9.24181
+<610> LL/token: -9.24184
+<620> LL/token: -9.24188
+<630> LL/token: -9.24194
+<640> LL/token: -9.2424
+
+0	0.1	patio seating parking outdoor atmosphere tables staff plenty location dining view options ambiance selection packed vibe sunday saturday casual building 
+1	0.1	staff atmosphere highly prices absolutely restaurant los tasty portions owner def cuban welcoming customer empanadas priced angeles visit hidden environment 
+2	0.1	dining visit fact restaurants ingredients certainly review quality restaurant truly youll diners simple despite toronto cuisine less establishment business upon 
+3	0.1	rice beef dishes noodles dish dumplings shrimp restaurant ordered noodle order asian spicy duck steamed chow broccoli tofu mein crispy 
+4	0.1	cooked ordered filet meal rib potatoes rare steaks restaurant sides dessert salad waiter ribeye steakhouse lobster beef mignon server potato 
+5	0.1	est pas des une mais trs cest qui avec bon dans sont vous nous jai bien sur par tait mon 
+6	0.1	restaurant phoenix staff places restaurants visit business airport weve scottsdale owned valley cleveland owner charlotte atmosphere location owners pittsburgh visiting 
+7	0.1	dessert crepe gelato yogurt strawberry toppings waffle crepes banana vanilla caramel scoop serve coconut milk custard creamy treat cone desserts 
+8	0.1	greek pita hummus salad gyro lamb rice plate restaurant falafel tasty shawarma ordered mediterranean beef meal order gyros platter eastern 
+9	0.1	tea milk iced latte starbucks cafe boba espresso staff teas bubble wifi ordered chai mocha barista regular places shops pastries 
+10	0.1	breakfast eggs brunch toast bacon pancakes hash potatoes ordered waffles sausage benedict sunday gravy omelet omelette diner biscuits waffle browns 
+11	0.1	burgers cheese onion bacon bun rings poutine ordered order chili patty potato onions beef cooked cheeseburger juicy toppings tots tasty 
+12	0.1	shrimp crab lobster seafood oysters ordered cooked mussels scallops cajun chowder restaurant calamari meal oyster dish clam order tasty clams 
+13	0.1	reviews yelp review stars based rating gave visit places closed restaurant update fact previous ordered yelpers seemed mentioned honestly business 
+14	0.1	ordered tasted cooked seemed soggy meal tasteless burnt reviews overcooked plate salty quality completely stars pieces waitress raw flavorless undercooked 
+15	0.1	quality prices stars average places less higher overall value rating portions restaurants theyre review compared paying visit priced restaurant ingredients 
+16	0.1	location parking locations staff mall located opened shopping chain starbucks visit strip plaza closed north court employees theyre mcdonalds station 
+17	0.1	sandwich sandwiches cheese beef sub deli grilled ordered order philly pastrami subway chips roast tasty ham subs bacon smoked mayo 
+18	0.1	sushi tuna salmon sashimi rice tempura ayce spicy quality miso chef restaurant order sake ordered places shrimp pieces nigiri chefs 
+19	0.1	korean rice dishes spicy beef bbq restaurant grill kimchi hawaiian order poke ordered tofu teriyaki plate places bulgogi meats dish 
+20	0.1	restaurant meal chef dining dish dishes dessert tasting gras view foie waiter restaurants montreal reservation courses prepared chefs duck served 
+21	0.1	server waitress tables order ordered restaurant plates plate meal seemed glass seated served waiter quickly noticed servers dining napkins glasses 
+22	0.1	order ordered delivery ordering customer waited delivered location placed gave takeout extra deliver received driver stars togo cashier pickup business 
+23	0.1	pho ramen noodles broth beef vietnamese noodle ordered restaurant places spicy rice order salty tasty bun banh extra miso flavorful 
+24	0.1	atmosphere bartender tvs crowd pub staff bartenders friday saturday selection group irish bars packed beers sunday prices tables karaoke nachos 
+25	0.1	customer customers manager staff employees business owner order management location attitude employee cashier review register gave restaurant establishment speak treated 
+26	0.1	thai curry spicy rice dish ordered restaurant dishes spice noodles beef order coconut shrimp tofu basil restaurants tea tasty salad 
+27	0.1	bill tip waitress manager ordered charged order extra meal server gave coupon groupon waiter restaurant customer discount paying received offered 
+28	0.1	staff server owner customer visit manager chef restaurant highly absolutely atmosphere event bartender greeted extremely servers beyond guests gave accommodating 
+29	0.1	indian restaurant dishes rice naan spicy curry dish ordered lamb masala buffet tasty restaurants spice tikka vegetarian order roti paneer 
+30	0.1	tacos taco chips burrito guacamole cheese asada carne rice margaritas tortilla ordered tortillas burritos nachos enchiladas beef chipotle chile guac 
+31	0.1	salad dressing cheese ordered lettuce salads grilled caesar tomatoes tomato meal potato spinach tasty greens avocado salmon sandwich order ranch 
+32	0.1	und der das ist war nicht ich sehr mit auch wir ein aber den essen auf eine gut sind waren 
+33	0.1	hotel bathroom staying casino staff stayed vegas view strip parking desk resort walking mgm located lobby bathrooms group restroom security 
+34	0.1	beers selection tap craft atmosphere staff draft brewery ale bartender pub wines glass brew german brews visit cocktails bottles ipa 
+35	0.1	restaurant staff portions prices atmosphere portion quality meal overall decor priced average tasty group casual dining dishes sizes restaurants extremely 
+36	0.1	youll theyre review fact literally walking dress stomach joint giant apparently entire crowd tiny mention coke complete heres less spent 
+37	0.1	decor tables restaurant walls atmosphere interior chairs seating dining lighting vibe seats ambiance booths staff building style lit glass windows 
+38	0.1	vegas las strip restaurant visit located prices mall hotel places casino restaurants location visiting staying meal locals highly york planet 
+39	0.1	cheese dessert dish salmon duck served roasted salad meal cooked sprouts ordered plate lamb restaurant grilled dishes scallops smoked appetizer 
+40	0.1	ordered appetizer cheese server appetizers dip tapas atmosphere cocktails order tasty sangria waitress restaurant entrees group cocktail chips shared overall 
+41	0.1	pasta restaurant ordered dish salad meal meatballs spaghetti olive dishes cheese ravioli calamari veal appetizer tomato dessert lasagna eggplant parmesan 
+42	0.1	options vegan vegetarian gluten veggie staff smoothie ingredients meal tasty smoothies protein veggies organic juices salads glutenfree selection diet bowls 
+43	0.1	bbq cheese brisket pulled sides ordered potato sandwich slaw sauces meal smoked order tasty coleslaw southern cornbread spicy barbecue potatoes 
+44	0.1	buffet selection vegas buffets station dessert quality desserts crab seafood rib brunch section dishes asian options foods plates filipino sushi 
+45	0.1	server seated restaurant order waitress waited ordered waiter hostess tables manager reservation group seemed quickly meal servers reservations immediately greeted 
+46	0.1	dish crispy served texture cooked onions thick spicy pieces creamy topped amount crunchy chips slightly thin salty flavorful meal portion 
+47	0.1	pizza cheese pizzas toppings thin slice pepperoni ordered slices sausage order style oven dough ingredients chicago delivery mozzarella york crispy 
+48	0.1	selection market prices grocery foods produce shopping products section organic quality staff meats joes etc parking deli stock farmers goods 
+49	0.1	cake bakery cupcakes donut cheesecake cupcake pastries dessert desserts pastry frosting croissant velvet moist filling dozen tasted cinnamon icing macarons 
+
+<650> LL/token: -9.24194
+<660> LL/token: -9.2416
+<670> LL/token: -9.24215
+<680> LL/token: -9.242
+<690> LL/token: -9.24174
+
+0	0.1	patio seating parking outdoor atmosphere tables staff plenty location dining view options ambiance packed selection sunday vibe saturday casual building 
+1	0.1	staff atmosphere highly prices absolutely restaurant tasty los owner portions def customer cuban empanadas welcoming angeles visit priced hidden environment 
+2	0.1	dining visit fact restaurants ingredients review certainly quality restaurant simple despite truly diners youll cuisine less establishment toronto business upon 
+3	0.1	rice beef dishes noodles dish dumplings shrimp ordered restaurant noodle order asian spicy duck steamed chow tofu broccoli mein tasty 
+4	0.1	cooked ordered filet rib meal potatoes rare steaks restaurant sides dessert salad waiter ribeye steakhouse lobster beef mignon server potato 
+5	0.1	est pas des une mais trs cest qui avec bon dans sont vous nous jai bien sur par tait mon 
+6	0.1	restaurant phoenix staff restaurants places visit business airport weve scottsdale cleveland owned owner valley charlotte atmosphere pittsburgh visiting owners location 
+7	0.1	dessert crepe gelato yogurt strawberry waffle toppings crepes banana vanilla caramel scoop serve coconut milk custard creamy treat cone desserts 
+8	0.1	greek pita hummus salad gyro lamb rice plate restaurant falafel tasty shawarma ordered mediterranean meal beef order gyros platter portions 
+9	0.1	tea milk iced latte starbucks cafe boba espresso staff teas bubble wifi ordered chai mocha barista regular places shops pastries 
+10	0.1	breakfast eggs brunch toast bacon pancakes hash potatoes ordered waffles benedict sausage sunday gravy omelet omelette diner biscuits waffle browns 
+11	0.1	burgers cheese onion bacon bun rings poutine ordered order chili patty potato onions cooked beef cheeseburger toppings juicy tots tasty 
+12	0.1	shrimp crab lobster seafood oysters ordered cooked mussels scallops cajun restaurant chowder calamari meal oyster dish clam order appetizer clams 
+13	0.1	reviews yelp review stars based rating gave visit restaurant closed places previous fact update yelpers seemed mentioned ordered order honestly 
+14	0.1	ordered tasted cooked seemed soggy meal tasteless burnt reviews salty overcooked plate quality completely stars pieces waitress raw flavorless undercooked 
+15	0.1	quality prices stars average places less higher overall rating value portions restaurants review theyre restaurant compared paying priced ingredients visit 
+16	0.1	location parking locations staff mall located opened shopping chain starbucks closed visit strip plaza north theyre mcdonalds employees court opening 
+17	0.1	sandwich sandwiches cheese beef sub deli grilled ordered order philly pastrami chips roast subway ham tasty subs bacon smoked mayo 
+18	0.1	sushi tuna salmon sashimi rice tempura ayce spicy quality miso chef restaurant sake order ordered places shrimp pieces nigiri chefs 
+19	0.1	korean rice spicy dishes beef bbq restaurant grill kimchi hawaiian order poke ordered tofu plate teriyaki bulgogi places meal dish 
+20	0.1	restaurant meal chef dining dish dishes dessert view tasting gras foie waiter restaurants montreal reservation courses chefs prepared duck vegas 
+21	0.1	server tables waitress order ordered restaurant plates plate meal glass seemed served seated waiter servers noticed quickly napkins dining plastic 
+22	0.1	order ordered delivery ordering customer waited delivered placed location gave extra takeout deliver received driver togo stars cashier pickup business 
+23	0.1	pho ramen noodles broth beef vietnamese noodle ordered restaurant places spicy rice order salty tasty bun banh extra miso flavorful 
+24	0.1	atmosphere bartender crowd tvs pub staff bartenders friday saturday bars irish group selection packed sunday beers prices nachos karaoke tables 
+25	0.1	customer manager customers staff employees business owner order management attitude location employee cashier review restaurant gave register establishment speak treated 
+26	0.1	thai curry spicy rice dish ordered restaurant dishes spice noodles beef order coconut shrimp tofu basil tea tasty restaurants salad 
+27	0.1	bill tip waitress manager ordered order charged extra meal server gave groupon coupon waiter restaurant customer paying discount received offered 
+28	0.1	staff server owner customer visit manager chef restaurant absolutely highly atmosphere event bartender greeted extremely servers gave beyond guests accommodating 
+29	0.1	indian restaurant dishes rice naan spicy curry ordered dish lamb masala buffet tasty restaurants spice tikka vegetarian order roti paneer 
+30	0.1	tacos taco chips burrito guacamole carne asada cheese rice margaritas tortilla ordered tortillas burritos nachos enchiladas beef chipotle chile guac 
+31	0.1	salad dressing cheese ordered lettuce salads grilled caesar tomatoes tomato meal potato greens spinach tasty avocado salmon sandwich order ranch 
+32	0.1	und der das ist war nicht ich sehr mit auch wir ein aber den essen auf eine gut sind waren 
+33	0.1	hotel bathroom staying casino staff stayed vegas view strip parking desk resort walking mgm located group lobby bathrooms security lounge 
+34	0.1	beers selection tap craft atmosphere staff draft brewery ale bartender pub wines brew glass german brews visit bottles ipa cocktails 
+35	0.1	restaurant staff portions atmosphere prices portion quality meal overall decor priced group tasty average casual dining dishes sizes restaurants meals 
+36	0.1	youll theyre review fact literally walking stomach dress joint giant apparently entire mention crowd tiny upon heres onto complete less 
+37	0.1	decor tables restaurant walls atmosphere interior chairs seating lighting seats vibe dining ambiance booths staff style building lit windows glass 
+38	0.1	vegas las strip restaurant located visit prices mall places hotel casino restaurants location visiting staying meal locals highly york hidden 
+39	0.1	cheese dessert dish salmon duck served roasted cooked salad meal ordered sprouts plate restaurant lamb dishes grilled smoked scallops appetizer 
+40	0.1	ordered appetizer cheese server dip appetizers tapas cocktails order atmosphere tasty sangria cocktail waitress entrees restaurant group shared chips overall 
+41	0.1	pasta restaurant ordered dish salad meal meatballs spaghetti olive dishes cheese calamari ravioli veal appetizer dessert tomato lasagna eggplant parmesan 
+42	0.1	options vegan vegetarian gluten veggie staff smoothie ingredients meal tasty smoothies protein veggies organic juices salads glutenfree selection diet bowls 
+43	0.1	bbq cheese brisket pulled sides ordered potato sandwich slaw sauces meal smoked order tasty coleslaw southern cornbread spicy barbecue juicy 
+44	0.1	buffet selection vegas buffets station dessert quality desserts crab seafood rib brunch section dishes asian foods options filipino plates sushi 
+45	0.1	server seated restaurant order waitress waited ordered waiter hostess tables manager reservation group seemed quickly meal immediately servers greeted reservations 
+46	0.1	dish crispy served texture cooked onions thick spicy pieces chips crunchy creamy topped amount slightly thin salty flavorful meal juicy 
+47	0.1	pizza cheese pizzas toppings thin slice pepperoni ordered slices sausage order style oven dough ingredients delivery chicago mozzarella york crispy 
+48	0.1	selection market prices grocery foods produce shopping products section organic quality staff meats parking joes etc deli stock farmers goods 
+49	0.1	cake bakery cupcakes donut cheesecake cupcake pastries dessert desserts pastry frosting croissant velvet moist filling dozen cinnamon tasted icing macarons 
+
+<700> LL/token: -9.24193
+<710> LL/token: -9.24169
+<720> LL/token: -9.24168
+<730> LL/token: -9.24207
+<740> LL/token: -9.24189
+
+0	0.1	patio seating parking outdoor atmosphere tables staff plenty location dining view options ambiance selection packed sunday vibe saturday group casual 
+1	0.1	staff atmosphere highly prices restaurant absolutely tasty los portions owner def customer welcoming cuban empanadas angeles visit priced environment hidden 
+2	0.1	dining visit restaurants ingredients fact quality restaurant review certainly simple truly diners youll less despite cuisine establishment business toronto although 
+3	0.1	rice beef dishes noodles dish dumplings shrimp restaurant ordered noodle order asian spicy duck steamed chow broccoli tofu mein crispy 
+4	0.1	cooked ordered filet meal rib potatoes rare steaks restaurant sides dessert salad waiter ribeye steakhouse lobster beef mignon server potato 
+5	0.1	est pas des une mais trs cest qui avec bon dans sont vous nous jai bien sur par tait mon 
+6	0.1	restaurant phoenix staff restaurants places visit business airport weve scottsdale cleveland owned valley charlotte owner atmosphere pittsburgh owners visiting quality 
+7	0.1	dessert crepe gelato yogurt strawberry toppings waffle crepes banana vanilla caramel scoop milk serve coconut custard creamy treat cone desserts 
+8	0.1	greek pita hummus salad gyro lamb rice plate restaurant falafel tasty shawarma ordered mediterranean meal beef platter order gyros eastern 
+9	0.1	tea milk iced latte starbucks boba cafe espresso staff teas bubble wifi ordered chai mocha barista regular places shops pastries 
+10	0.1	breakfast eggs brunch toast bacon pancakes hash potatoes ordered waffles sausage benedict sunday gravy omelet omelette diner biscuits waffle browns 
+11	0.1	burgers cheese onion bacon bun rings poutine ordered order chili patty potato onions beef cooked cheeseburger juicy toppings tots tasty 
+12	0.1	shrimp crab lobster seafood oysters ordered cooked mussels scallops cajun chowder calamari restaurant meal oyster dish clam order appetizer tasty 
+13	0.1	reviews yelp review stars based rating gave visit places closed restaurant previous fact update yelpers seemed ordered mentioned order honestly 
+14	0.1	ordered tasted cooked seemed meal soggy burnt tasteless reviews overcooked salty quality completely plate stars pieces waitress raw flavorless undercooked 
+15	0.1	quality prices stars average places less overall higher rating value restaurants portions theyre review restaurant compared priced paying ingredients standard 
+16	0.1	location parking locations staff mall located opened shopping chain starbucks visit plaza closed strip north employees mcdonalds court theyre opening 
+17	0.1	sandwich sandwiches cheese beef sub deli grilled ordered order philly pastrami subway roast chips tasty ham subs bacon smoked mayo 
+18	0.1	sushi tuna salmon sashimi rice tempura ayce spicy quality miso chef restaurant order sake ordered places shrimp pieces nigiri chefs 
+19	0.1	korean rice dishes spicy beef bbq restaurant grill kimchi hawaiian order poke ordered tofu teriyaki plate dish bulgogi places meal 
+20	0.1	restaurant meal chef dining dish dishes dessert view tasting gras foie waiter restaurants montreal reservation courses chefs prepared vegas served 
+21	0.1	tables server waitress order restaurant ordered plates plate glass meal seemed served waiter servers seated noticed napkins plastic glasses quickly 
+22	0.1	order ordered delivery ordering customer waited placed location delivered gave takeout extra deliver received stars driver togo cashier pickup business 
+23	0.1	pho ramen noodles broth beef vietnamese noodle ordered restaurant places spicy rice order salty tasty banh bun extra miso asian 
+24	0.1	atmosphere bartender crowd tvs pub staff bartenders friday saturday group bars irish selection packed beers sunday prices nachos tables karaoke 
+25	0.1	customer manager customers staff employees business owner order management location attitude employee cashier review restaurant establishment speak register gave treated 
+26	0.1	thai curry spicy rice dish ordered restaurant dishes spice noodles beef order coconut shrimp tofu basil restaurants tasty tea salad 
+27	0.1	bill tip waitress ordered manager extra charged order meal server gave groupon coupon waiter restaurant customer paying discount received offered 
+28	0.1	staff server owner customer visit manager chef restaurant highly absolutely event atmosphere bartender extremely greeted servers beyond gave guests accommodating 
+29	0.1	indian restaurant dishes rice naan spicy curry dish ordered lamb masala buffet tasty restaurants tikka spice vegetarian order roti paneer 
+30	0.1	tacos taco chips burrito guacamole asada carne cheese rice margaritas tortilla ordered tortillas burritos nachos enchiladas beef chipotle chile guac 
+31	0.1	salad dressing cheese ordered lettuce salads grilled caesar tomatoes tomato meal potato greens tasty spinach avocado salmon order sandwich ranch 
+32	0.1	und der das ist war nicht ich sehr mit auch wir ein aber den essen auf eine gut sind waren 
+33	0.1	hotel bathroom staying casino stayed staff vegas view strip parking desk walking resort mgm located group security lobby lounge bathrooms 
+34	0.1	beers selection tap craft atmosphere staff draft brewery ale pub wines bartender german brew brews glass visit ipa bottles liquor 
+35	0.1	restaurant staff portions atmosphere prices portion quality meal overall decor group priced tasty dining dishes casual average sizes extremely meals 
+36	0.1	youll theyre review fact literally walking stomach dress giant joint entire apparently mention upon heres spent complete crowd less tiny 
+37	0.1	decor tables restaurant walls atmosphere interior chairs seating vibe lighting dining seats booths staff ambiance style building lit design cafe 
+38	0.1	vegas las strip restaurant located visit prices mall hotel places casino restaurants location visiting staying meal york locals highly planet 
+39	0.1	cheese dessert dish duck salmon served roasted meal cooked salad sprouts ordered plate lamb restaurant dishes grilled smoked scallops potatoes 
+40	0.1	ordered cheese appetizer server dip appetizers cocktails tapas atmosphere cocktail tasty order sangria waitress group entrees restaurant chips shared overall 
+41	0.1	pasta restaurant ordered dish salad meal meatballs spaghetti olive cheese dishes ravioli calamari veal appetizer dessert tomato lasagna eggplant parmesan 
+42	0.1	options vegan vegetarian gluten veggie staff smoothie ingredients tasty smoothies meal protein veggies organic juices salads glutenfree selection diet bowls 
+43	0.1	bbq cheese brisket pulled sides potato sandwich ordered slaw sauces meal smoked order tasty coleslaw southern cornbread spicy barbecue wing 
+44	0.1	buffet selection vegas buffets station dessert quality desserts crab seafood rib brunch section dishes asian foods options filipino sushi plates 
+45	0.1	server seated restaurant order waitress waited ordered waiter hostess tables manager reservation group seemed quickly meal greeted immediately servers reservations 
+46	0.1	crispy dish served texture cooked onions thick spicy pieces chips amount creamy crunchy topped slightly thin salty meal flavorful portion 
+47	0.1	pizza cheese pizzas toppings slice thin pepperoni ordered slices sausage order style oven dough ingredients delivery chicago mozzarella york crispy 
+48	0.1	selection market prices grocery foods shopping produce products section organic quality staff meats joes parking etc deli stock farmers goods 
+49	0.1	cake bakery cupcakes donut cheesecake cupcake pastries dessert desserts pastry frosting croissant velvet moist filling dozen cinnamon tasted icing macarons 
+
+<750> LL/token: -9.2416
+<760> LL/token: -9.24184
+<770> LL/token: -9.24208
+<780> LL/token: -9.24193
+<790> LL/token: -9.24187
+
+0	0.1	patio seating parking outdoor atmosphere tables staff plenty location dining view options ambiance packed selection sunday vibe saturday building casual 
+1	0.1	staff atmosphere highly prices restaurant absolutely tasty los owner portions def customer cuban empanadas welcoming angeles visit priced hidden environment 
+2	0.1	dining visit restaurants ingredients fact quality review certainly restaurant simple less truly despite diners youll cuisine establishment business toronto concept 
+3	0.1	rice beef dishes noodles dish dumplings shrimp ordered restaurant noodle order asian spicy duck steamed chow broccoli tofu mein crispy 
+4	0.1	cooked ordered filet meal rib potatoes rare steaks restaurant sides dessert salad waiter ribeye steakhouse lobster beef mignon server potato 
+5	0.1	est pas des une mais trs cest qui avec bon dans sont vous nous jai bien sur par tait mon 
+6	0.1	restaurant phoenix places restaurants staff visit business airport weve scottsdale cleveland owned charlotte valley owner pittsburgh atmosphere owners visiting location 
+7	0.1	dessert crepe gelato yogurt strawberry toppings crepes waffle banana vanilla caramel scoop serve milk coconut custard creamy treat desserts cone 
+8	0.1	greek pita hummus salad gyro lamb rice plate restaurant falafel tasty shawarma ordered mediterranean meal beef order platter gyros eastern 
+9	0.1	tea milk iced latte starbucks boba cafe espresso staff teas bubble wifi ordered chai barista mocha regular places shops pastries 
+10	0.1	breakfast eggs brunch toast bacon pancakes hash potatoes ordered waffles benedict sausage sunday gravy omelet omelette diner biscuits waffle browns 
+11	0.1	burgers cheese onion bacon bun rings ordered poutine order chili patty potato onions cooked beef cheeseburger juicy toppings tots tasty 
+12	0.1	shrimp crab lobster seafood oysters ordered cooked mussels scallops calamari cajun meal chowder restaurant dish oyster clam order appetizer clams 
+13	0.1	reviews yelp review stars based gave rating visit closed places previous restaurant fact update yelpers seemed ordered mentioned order business 
+14	0.1	ordered tasted cooked seemed meal soggy tasteless burnt reviews overcooked salty plate quality completely stars waitress pieces raw flavorless undercooked 
+15	0.1	quality prices stars average places less overall higher rating value restaurants portions review restaurant theyre compared priced ingredients paying standard 
+16	0.1	location parking locations staff mall located opened shopping chain starbucks visit plaza strip closed north mcdonalds employees theyre court station 
+17	0.1	sandwich sandwiches cheese beef sub deli grilled ordered order philly pastrami subway chips roast ham tasty subs bacon smoked mayo 
+18	0.1	sushi tuna salmon sashimi rice tempura ayce spicy quality miso chef order restaurant sake ordered places shrimp pieces nigiri chefs 
+19	0.1	korean rice dishes spicy beef bbq restaurant grill kimchi order hawaiian poke ordered tofu teriyaki plate bulgogi places meal dish 
+20	0.1	restaurant meal chef dining dish dishes dessert view tasting gras foie waiter restaurants reservation montreal courses chefs prepared reservations vegas 
+21	0.1	tables server order waitress restaurant plates ordered plate glass seemed meal served waiter servers plastic napkins noticed staff seated glasses 
+22	0.1	order ordered delivery ordering customer waited delivered placed location gave takeout deliver extra received driver cashier stars togo pickup restaurant 
+23	0.1	pho ramen noodles broth beef vietnamese noodle ordered restaurant places spicy rice order salty bun tasty banh extra miso asian 
+24	0.1	atmosphere bartender crowd tvs pub staff bartenders friday saturday group bars irish selection packed sunday beers prices karaoke tables nachos 
+25	0.1	customer manager customers staff employees business owner order management attitude location employee cashier review restaurant speak gave establishment register treated 
+26	0.1	thai curry spicy rice dish ordered restaurant dishes spice noodles beef order coconut shrimp tofu basil tea restaurants tasty salad 
+27	0.1	bill tip waitress ordered manager extra order charged meal server gave coupon groupon waiter restaurant customer paying discount received offered 
+28	0.1	staff server owner customer visit manager chef restaurant highly absolutely event atmosphere greeted bartender extremely servers gave beyond guests accommodating 
+29	0.1	indian restaurant dishes rice naan spicy curry dish ordered lamb masala buffet tasty restaurants spice tikka vegetarian order roti paneer 
+30	0.1	tacos taco chips burrito guacamole cheese asada carne rice tortilla margaritas ordered tortillas burritos nachos enchiladas chipotle beef chile guac 
+31	0.1	salad dressing cheese ordered lettuce salads grilled caesar tomatoes tomato meal potato greens spinach tasty avocado salmon sandwich order ranch 
+32	0.1	und der das ist war nicht ich sehr mit auch wir ein aber den essen auf eine gut sind waren 
+33	0.1	hotel staying casino bathroom staff stayed vegas view strip parking desk resort walking mgm located group lobby security lounge bathrooms 
+34	0.1	beers selection tap craft atmosphere staff draft brewery ale pub wines bartender brew german brews visit glass ipa bottles tour 
+35	0.1	restaurant staff portions atmosphere prices portion meal quality overall decor group priced tasty dining casual dishes average sizes meals extremely 
+36	0.1	youll theyre review fact literally walking stomach joint dress giant entire apparently mention upon tiny heres onto spent less immediately 
+37	0.1	decor tables restaurant walls atmosphere interior chairs seating vibe lighting seats staff dining booths ambiance cafe style building lit windows 
+38	0.1	vegas las strip restaurant located visit prices mall places hotel casino restaurants location visiting staying locals york meal highly planet 
+39	0.1	cheese dessert dish duck salmon served roasted meal cooked salad sprouts ordered plate lamb dishes restaurant grilled smoked appetizer scallops 
+40	0.1	ordered cheese server appetizer cocktails dip appetizers tapas cocktail atmosphere tasty order sangria group waitress restaurant bartender entrees shared chips 
+41	0.1	pasta restaurant ordered dish salad meal meatballs spaghetti olive dishes cheese calamari ravioli veal appetizer tomato dessert lasagna eggplant parmesan 
+42	0.1	options vegan vegetarian gluten veggie staff smoothie ingredients meal smoothies tasty protein veggies organic juices salads glutenfree selection bowls diet 
+43	0.1	bbq cheese brisket pulled sides ordered potato sandwich slaw sauces meal smoked order tasty coleslaw southern cornbread spicy barbecue potatoes 
+44	0.1	buffet selection vegas buffets dessert station quality desserts crab seafood rib brunch section dishes asian foods options filipino sushi plates 
+45	0.1	server seated restaurant order waitress ordered waited waiter hostess tables manager reservation group seemed quickly meal greeted immediately servers reservations 
+46	0.1	crispy dish served texture cooked thick onions chips pieces spicy crunchy amount topped creamy thin slightly salty flavorful batter juicy 
+47	0.1	pizza cheese pizzas toppings thin slice pepperoni ordered slices sausage style order oven dough ingredients delivery chicago mozzarella york places 
+48	0.1	selection market prices grocery foods produce shopping products section organic quality staff meats joes parking etc deli stock goods farmers 
+49	0.1	cake bakery cupcakes donut cheesecake cupcake pastries dessert desserts pastry frosting croissant velvet moist filling dozen cinnamon tasted icing macarons 
+
+<800> LL/token: -9.2416
+<810> LL/token: -9.24173
+<820> LL/token: -9.24193
+<830> LL/token: -9.24202
+<840> LL/token: -9.24194
+
+0	0.1	patio seating parking outdoor tables atmosphere staff plenty location restaurant dining view options ambiance selection packed sunday vibe saturday building 
+1	0.1	staff atmosphere highly prices absolutely restaurant tasty los owner portions def customer visit cuban welcoming empanadas angeles priced hidden environment 
+2	0.1	dining visit fact ingredients restaurants quality review certainly restaurant simple despite diners less truly youll cuisine establishment toronto options offerings 
+3	0.1	rice beef dishes noodles dish dumplings shrimp ordered restaurant noodle order asian spicy duck steamed chow tofu broccoli mein crispy 
+4	0.1	cooked ordered filet meal rib potatoes rare steaks restaurant sides dessert salad waiter ribeye steakhouse lobster beef mignon server potato 
+5	0.1	est pas des une mais trs cest qui avec bon dans sont vous nous jai bien sur par tait mon 
+6	0.1	restaurant phoenix staff places restaurants visit business airport weve scottsdale cleveland owned valley owner charlotte pittsburgh atmosphere owners location visiting 
+7	0.1	dessert crepe gelato yogurt strawberry toppings crepes waffle banana vanilla caramel scoop serve milk coconut custard creamy treat desserts cone 
+8	0.1	greek pita hummus salad gyro lamb rice plate restaurant falafel tasty shawarma ordered mediterranean beef meal order gyros platter eastern 
+9	0.1	tea milk iced latte starbucks boba cafe espresso teas staff bubble wifi ordered chai barista mocha regular places shops pastries 
+10	0.1	breakfast eggs brunch toast bacon pancakes hash potatoes ordered waffles sausage benedict sunday gravy omelet omelette diner biscuits waffle browns 
+11	0.1	burgers cheese onion bacon bun rings ordered poutine order chili patty potato onions beef cooked cheeseburger juicy toppings tots tasty 
+12	0.1	shrimp crab lobster seafood oysters ordered cooked mussels calamari scallops cajun chowder meal oyster dish restaurant clam order appetizer tasty 
+13	0.1	reviews yelp review stars based gave visit rating closed places previous ordered update fact yelpers restaurant seemed mentioned order honestly 
+14	0.1	ordered tasted cooked seemed meal soggy burnt tasteless reviews overcooked salty quality plate completely stars waitress pieces raw flavorless undercooked 
+15	0.1	quality stars prices average places less overall higher rating value restaurants review portions restaurant theyre compared priced paying slightly standard 
+16	0.1	location parking locations staff mall located opened shopping chain starbucks visit plaza closed strip employees north theyre mcdonalds court station 
+17	0.1	sandwich sandwiches cheese beef sub deli grilled ordered order philly pastrami subway roast chips tasty subs ham bacon smoked mayo 
+18	0.1	sushi tuna salmon sashimi rice ayce tempura spicy quality miso chef order restaurant sake ordered places shrimp pieces nigiri chefs 
+19	0.1	korean rice dishes spicy beef bbq restaurant grill kimchi hawaiian poke order ordered tofu teriyaki plate places bulgogi dish meal 
+20	0.1	restaurant meal dining chef dessert dish dishes view tasting gras foie waiter restaurants reservation montreal courses chefs vegas prepared reservations 
+21	0.1	tables server waitress order restaurant plates plate ordered glass seemed meal served servers plastic napkins staff waiter noticed glasses seated 
+22	0.1	order ordered delivery ordering customer waited location placed delivered gave takeout deliver extra received driver cashier togo stars pickup business 
+23	0.1	pho ramen noodles broth beef vietnamese noodle ordered restaurant places spicy rice order salty tasty bun banh extra miso asian 
+24	0.1	atmosphere crowd bartender tvs pub staff bartenders friday saturday group bars irish selection packed sunday beers nachos karaoke prices tables 
+25	0.1	customer manager customers staff business employees owner order management attitude location employee review cashier restaurant speak establishment gave register treated 
+26	0.1	thai curry spicy rice dish ordered restaurant dishes spice noodles beef order coconut shrimp tofu basil restaurants tea tasty asian 
+27	0.1	bill tip waitress ordered manager extra charged order meal server gave groupon coupon waiter restaurant customer paying discount received offered 
+28	0.1	staff server owner customer visit manager chef restaurant absolutely highly event atmosphere greeted extremely servers bartender gave beyond guests accommodating 
+29	0.1	indian restaurant dishes rice naan spicy curry ordered dish lamb masala buffet tasty restaurants spice tikka vegetarian order roti paneer 
+30	0.1	tacos taco chips burrito guacamole cheese asada carne rice tortilla margaritas ordered tortillas burritos nachos enchiladas beef chipotle chile guac 
+31	0.1	salad dressing cheese ordered lettuce salads grilled caesar tomatoes tomato meal potato spinach greens avocado tasty salmon sandwich order ranch 
+32	0.1	und der das ist war nicht ich sehr mit auch wir ein aber den essen auf eine gut sind waren 
+33	0.1	hotel staying casino bathroom staff stayed vegas strip view parking desk resort walking mgm located group lounge security lobby bathrooms 
+34	0.1	beers selection tap craft atmosphere staff draft brewery pub ale wines german brew bartender brews glass visit ipa bottles tour 
+35	0.1	restaurant staff portions atmosphere prices portion meal quality overall decor group tasty priced casual dining dishes sizes average meals extremely 
+36	0.1	youll theyre review fact literally walking stomach giant joint entire dress apparently mention upon less complete heres onto immediately tiny 
+37	0.1	decor tables restaurant walls atmosphere interior chairs seating vibe staff lighting seats dining booths ambiance cafe style building lit windows 
+38	0.1	vegas las strip restaurant located visit prices mall hotel places casino restaurants location visiting staying locals york meal highly cafe 
+39	0.1	cheese dish dessert duck salmon served roasted cooked meal salad sprouts ordered plate lamb dishes grilled restaurant scallops smoked appetizer 
+40	0.1	ordered cheese server cocktails appetizer dip appetizers cocktail tapas atmosphere tasty order sangria bartender group waitress shared glass overall entrees 
+41	0.1	pasta restaurant ordered dish salad meal meatballs spaghetti olive cheese dishes calamari ravioli veal appetizer dessert tomato lasagna eggplant parmesan 
+42	0.1	options vegan vegetarian gluten veggie staff smoothie ingredients meal tasty smoothies protein veggies organic juices salads glutenfree bowls vegetarians diet 
+43	0.1	bbq cheese brisket pulled sides ordered potato sandwich slaw sauces meal order smoked tasty coleslaw southern cornbread spicy barbecue wing 
+44	0.1	buffet selection vegas buffets dessert station quality desserts crab seafood rib brunch section dishes asian options foods filipino sushi plates 
+45	0.1	server seated order restaurant waitress ordered waited waiter hostess tables manager reservation quickly seemed group meal greeted immediately servers bill 
+46	0.1	crispy dish served texture cooked onions thick chips spicy pieces amount crunchy thin creamy topped slightly salty meal flavorful peppers 
+47	0.1	pizza cheese pizzas toppings slice thin pepperoni ordered slices sausage style order oven dough ingredients delivery chicago mozzarella york crispy 
+48	0.1	selection market prices grocery foods produce shopping products section quality organic staff meats joes parking etc deli stock farmers goods 
+49	0.1	cake bakery cupcakes donut cheesecake cupcake pastries dessert desserts pastry velvet frosting croissant moist filling dozen cinnamon tasted icing macarons 
+
+<850> LL/token: -9.24203
+<860> LL/token: -9.24206
+<870> LL/token: -9.24173
+<880> LL/token: -9.2418
+<890> LL/token: -9.24197
+
+0	0.1	patio seating parking outdoor tables atmosphere staff plenty location restaurant dining view options ambiance selection packed sunday vibe saturday building 
+1	0.1	staff atmosphere highly prices absolutely restaurant tasty los owner portions def customer cuban welcoming empanadas visit angeles environment hidden priced 
+2	0.1	dining visit ingredients restaurants quality fact review certainly restaurant less despite simple diners youll truly cuisine options establishment several although 
+3	0.1	rice beef dishes noodles dish dumplings shrimp restaurant ordered noodle order asian spicy duck steamed chow tofu broccoli mein tasty 
+4	0.1	cooked ordered filet meal rib potatoes rare steaks restaurant sides salad dessert waiter ribeye steakhouse lobster mignon beef server potato 
+5	0.1	est pas des une mais trs cest qui avec bon dans sont vous nous jai bien sur par tait mon 
+6	0.1	restaurant phoenix restaurants places staff visit business airport scottsdale weve owned cleveland valley owner charlotte pittsburgh atmosphere owners location quality 
+7	0.1	dessert crepe gelato yogurt strawberry toppings crepes waffle banana vanilla caramel scoop serve milk coconut custard creamy desserts treat cone 
+8	0.1	greek pita hummus salad gyro lamb rice plate restaurant falafel tasty ordered shawarma mediterranean meal order beef platter gyros eastern 
+9	0.1	tea milk iced latte starbucks boba cafe espresso teas staff bubble wifi ordered chai barista mocha regular places shops order 
+10	0.1	breakfast eggs brunch toast bacon pancakes hash potatoes ordered waffles benedict sausage sunday gravy omelet omelette diner biscuits waffle browns 
+11	0.1	burgers cheese onion bacon bun rings poutine ordered order chili patty potato onions beef cooked cheeseburger toppings juicy tots tasty 
+12	0.1	shrimp crab lobster seafood ordered oysters cooked mussels calamari scallops cajun chowder meal dish oyster appetizer restaurant clam order tasty 
+13	0.1	reviews yelp review stars based gave visit rating closed places ordered previous seemed fact update yelpers mentioned order restaurant honestly 
+14	0.1	ordered tasted cooked meal seemed soggy tasteless burnt reviews overcooked plate salty quality completely waitress stars pieces raw flavorless undercooked 
+15	0.1	quality stars prices average places overall less higher rating value review restaurants restaurant portions theyre compared priced paying reviews standard 
+16	0.1	location parking locations staff mall located opened shopping starbucks chain visit plaza closed north strip employees theyre mcdonalds court station 
+17	0.1	sandwich sandwiches cheese beef sub deli grilled ordered order philly pastrami subway chips roast tasty subs ham bacon mayo smoked 
+18	0.1	sushi tuna salmon sashimi rice tempura ayce spicy quality miso chef restaurant order sake ordered places pieces shrimp nigiri chefs 
+19	0.1	korean rice dishes spicy beef bbq restaurant grill kimchi hawaiian order poke ordered tofu teriyaki plate places dish bulgogi meal 
+20	0.1	restaurant meal chef dining dessert dish dishes view tasting gras foie waiter restaurants reservation montreal courses chefs reservations vegas prepared 
+21	0.1	tables order waitress server restaurant plates plate ordered glass seemed served meal staff plastic napkins servers waiter noticed glasses cups 
+22	0.1	order ordered delivery ordering customer waited delivered placed location gave takeout extra deliver received driver cashier stars togo pickup business 
+23	0.1	pho ramen noodles broth beef vietnamese noodle ordered restaurant places spicy rice order tasty salty bun banh extra miso flavorful 
+24	0.1	atmosphere crowd bartender tvs pub staff bartenders friday saturday group bars irish packed selection sunday beers tables prices karaoke nachos 
+25	0.1	customer manager customers staff business employees owner order management attitude location employee review cashier speak restaurant gave establishment treated register 
+26	0.1	thai curry spicy rice dish ordered restaurant dishes spice noodles beef order coconut shrimp tofu basil restaurants tea tasty salad 
+27	0.1	bill tip waitress ordered manager extra order charged meal server gave groupon coupon waiter restaurant customer paying discount received offered 
+28	0.1	staff server owner customer visit manager chef highly restaurant absolutely atmosphere event greeted servers extremely bartender guests beyond gave accommodating 
+29	0.1	indian restaurant dishes rice naan spicy curry dish ordered lamb masala buffet tasty restaurants spice tikka order vegetarian roti paneer 
+30	0.1	tacos taco chips burrito guacamole cheese carne asada rice tortilla ordered margaritas tortillas burritos nachos enchiladas beef chipotle chile guac 
+31	0.1	salad dressing cheese ordered lettuce salads grilled caesar tomatoes tomato meal potato spinach greens avocado tasty salmon order sandwich ranch 
+32	0.1	und der das ist war nicht ich sehr mit auch wir ein aber den essen auf eine gut sind waren 
+33	0.1	hotel staying casino vegas stayed staff bathroom strip view parking desk resort mgm walking located group security lobby lounge entrance 
+34	0.1	beers selection tap craft atmosphere staff draft brewery ale pub wines brew german brews glass bartender visit ipa bottles tour 
+35	0.1	restaurant staff portions prices atmosphere portion meal quality overall group decor tasty priced casual dining dishes sizes average meals extremely 
+36	0.1	youll theyre review fact walking literally stomach joint giant dress entire apparently mention upon onto less tiny heres complete spent 
+37	0.1	decor tables restaurant walls atmosphere interior chairs seating vibe lighting staff seats booths ambiance dining cafe style building edinburgh lit 
+38	0.1	vegas las strip restaurant located visit mall prices places hotel casino restaurants location visiting staying york meal locals highly hidden 
+39	0.1	cheese dish dessert duck salmon served roasted meal cooked salad plate sprouts ordered dishes lamb grilled restaurant smoked appetizer scallops 
+40	0.1	ordered cocktails cheese server appetizer dip cocktail appetizers tapas atmosphere tasty sangria order bartender group glass waitress shared sliders overall 
+41	0.1	pasta restaurant ordered dish salad meal meatballs spaghetti olive cheese dishes calamari ravioli veal appetizer dessert tomato lasagna eggplant parmesan 
+42	0.1	options vegan vegetarian gluten veggie staff smoothie ingredients meal smoothies tasty protein veggies organic juices salads glutenfree selection diet bowls 
+43	0.1	bbq cheese brisket pulled sides ordered potato sandwich slaw sauces meal smoked order tasty coleslaw southern cornbread spicy wing barbecue 
+44	0.1	buffet selection vegas buffets dessert station quality desserts crab seafood rib brunch section dishes asian options foods filipino plates sushi 
+45	0.1	server seated waitress order restaurant ordered waited waiter hostess tables manager reservation seemed quickly meal group greeted immediately servers bill 
+46	0.1	crispy dish served texture cooked onions thick chips spicy pieces amount crunchy thin creamy topped slightly salty meal flavorful peppers 
+47	0.1	pizza cheese pizzas toppings thin slice pepperoni ordered slices sausage style order oven dough ingredients delivery chicago mozzarella york crispy 
+48	0.1	selection market prices grocery foods produce shopping products section organic quality staff meats joes parking etc deli stock farmers goods 
+49	0.1	cake bakery cupcakes donut cheesecake cupcake pastries dessert desserts pastry frosting velvet croissant moist filling dozen tasted cinnamon icing macarons 
+
+<900> LL/token: -9.24232
+<910> LL/token: -9.24181
+<920> LL/token: -9.24207
+<930> LL/token: -9.24185
+<940> LL/token: -9.24157
+
+0	0.1	patio seating parking outdoor tables atmosphere staff plenty location restaurant dining view ambiance options selection packed sunday saturday vibe casual 
+1	0.1	staff atmosphere highly prices absolutely restaurant tasty los portions owner def customer welcoming cuban empanadas priced angeles environment visit extremely 
+2	0.1	dining visit ingredients quality restaurants fact review restaurant certainly despite less simple truly diners youll cuisine establishment options although concept 
+3	0.1	rice beef dishes noodles dish dumplings shrimp ordered restaurant noodle order asian spicy duck steamed chow broccoli tofu mein crispy 
+4	0.1	cooked ordered filet meal rib potatoes rare steaks restaurant sides salad dessert waiter ribeye steakhouse lobster mignon server beef potato 
+5	0.1	est pas des une mais trs cest qui avec bon dans sont vous nous jai bien sur par tait mon 
+6	0.1	restaurant phoenix staff restaurants places visit business airport weve scottsdale owned cleveland owner valley charlotte pittsburgh atmosphere owners visiting quality 
+7	0.1	dessert crepe gelato yogurt strawberry toppings waffle crepes banana vanilla caramel scoop serve coconut milk custard creamy desserts treat cone 
+8	0.1	greek pita hummus salad gyro lamb rice plate restaurant falafel tasty ordered shawarma mediterranean meal order beef platter gyros portions 
+9	0.1	tea milk iced latte starbucks boba cafe espresso teas staff bubble wifi ordered chai barista mocha regular places shops pastries 
+10	0.1	breakfast eggs brunch toast bacon pancakes hash potatoes ordered waffles benedict sausage sunday gravy omelet omelette diner biscuits waffle browns 
+11	0.1	burgers cheese onion bacon bun rings ordered poutine order chili patty potato beef onions cooked cheeseburger toppings juicy tots tasty 
+12	0.1	shrimp crab lobster seafood oysters ordered cooked mussels calamari scallops cajun chowder restaurant meal oyster dish appetizer clam order tasty 
+13	0.1	reviews yelp review stars based visit gave closed rating places ordered previous fact update yelpers seemed mentioned restaurant order honestly 
+14	0.1	ordered tasted cooked meal seemed soggy tasteless burnt reviews plate salty overcooked quality completely waitress stars pieces restaurant raw flavorless 
+15	0.1	quality stars prices average places overall less higher rating value restaurants review restaurant portions theyre priced compared reviews paying standard 
+16	0.1	location parking staff locations mall located opened shopping starbucks chain visit plaza employees north mcdonalds closed strip court theyre opening 
+17	0.1	sandwich sandwiches cheese beef sub deli grilled order ordered philly pastrami subway chips roast tasty ham subs bacon smoked mayo 
+18	0.1	sushi tuna salmon sashimi rice tempura ayce spicy quality miso chef order ordered sake restaurant places pieces shrimp nigiri chefs 
+19	0.1	korean rice spicy dishes beef bbq restaurant grill order kimchi hawaiian poke ordered tofu teriyaki plate bulgogi places meal dish 
+20	0.1	restaurant meal dining chef dessert dish dishes view tasting gras foie waiter restaurants reservation montreal courses reservations chefs vegas prepared 
+21	0.1	tables order waitress restaurant server plates plate glass seemed ordered staff served plastic meal napkins servers noticed coke cups waiter 
+22	0.1	order ordered delivery ordering customer waited placed delivered location gave takeout deliver received extra driver stars togo cashier pickup business 
+23	0.1	pho ramen noodles broth beef vietnamese noodle ordered restaurant places spicy rice order salty tasty bun banh extra miso asian 
+24	0.1	atmosphere crowd tvs bartender pub staff bartenders friday saturday bars group irish packed selection sunday beers tables nachos prices karaoke 
+25	0.1	customer manager customers staff business employees owner order management attitude location employee review cashier restaurant speak gave establishment treated register 
+26	0.1	thai curry spicy rice dish ordered restaurant dishes spice noodles beef order coconut shrimp tofu basil tasty restaurants tea salad 
+27	0.1	bill tip waitress ordered extra manager order charged meal server gave groupon coupon waiter restaurant paying customer discount received offered 
+28	0.1	staff server owner customer visit manager chef restaurant highly absolutely atmosphere greeted event extremely servers bartender beyond gave guests accommodating 
+29	0.1	indian restaurant dishes rice naan spicy curry ordered dish lamb masala buffet tasty restaurants spice tikka vegetarian order roti paneer 
+30	0.1	tacos taco chips burrito guacamole cheese carne asada rice tortilla ordered margaritas tortillas burritos nachos enchiladas beef chipotle chile quesadilla 
+31	0.1	salad dressing cheese ordered lettuce salads grilled caesar tomatoes tomato meal potato spinach greens tasty avocado salmon order sandwich ranch 
+32	0.1	und der das ist war nicht ich sehr mit auch wir ein aber den essen auf eine gut sind waren 
+33	0.1	hotel staying casino vegas stayed staff bathroom strip view parking desk walking resort mgm group located security lounge lobby entrance 
+34	0.1	beers selection tap craft atmosphere staff draft brewery ale pub wines brew german brews bartender visit glass ipa bottles tour 
+35	0.1	restaurant staff portions prices atmosphere portion meal quality overall group decor priced tasty sizes dishes casual dining average meals extremely 
+36	0.1	youll theyre review fact literally walking stomach joint giant dress entire apparently upon mention less tiny heres complete spent onto 
+37	0.1	decor tables walls restaurant atmosphere interior chairs seating vibe lighting staff seats dining ambiance booths cafe style building edinburgh lit 
+38	0.1	vegas las strip restaurant visit located prices mall places hotel casino restaurants location visiting staying meal locals york highly yelp 
+39	0.1	cheese dish dessert duck salmon served roasted meal cooked salad plate sprouts ordered lamb dishes restaurant grilled appetizer smoked scallops 
+40	0.1	ordered cocktails server cheese cocktail dip appetizer appetizers tapas atmosphere sangria tasty bartender order group glass waitress shared sliders overall 
+41	0.1	pasta restaurant ordered dish salad meal meatballs spaghetti olive cheese dishes calamari ravioli veal appetizer dessert tomato lasagna eggplant parmesan 
+42	0.1	options vegan vegetarian gluten veggie staff smoothie ingredients meal tasty smoothies protein veggies organic juices salads glutenfree selection bowls diet 
+43	0.1	bbq cheese brisket pulled sides ordered potato sandwich slaw sauces meal order smoked tasty coleslaw southern cornbread spicy barbecue wing 
+44	0.1	buffet selection vegas buffets dessert station quality desserts crab seafood rib brunch section dishes asian options foods filipino plates sushi 
+45	0.1	server seated order waitress ordered restaurant waited waiter hostess tables manager reservation seemed quickly meal group greeted immediately servers bill 
+46	0.1	crispy dish served texture cooked onions thick chips pieces spicy amount topped crunchy creamy thin slightly salty meal flavorful portion 
+47	0.1	pizza cheese pizzas toppings thin slice pepperoni ordered slices sausage order style oven dough ingredients delivery chicago mozzarella york crispy 
+48	0.1	selection market prices grocery foods produce shopping products section organic quality staff meats joes parking etc deli stock farmers goods 
+49	0.1	cake bakery cupcakes donut cheesecake cupcake pastries dessert desserts pastry frosting croissant velvet moist filling dozen tasted cinnamon icing macarons 
+
+<950> LL/token: -9.24204
+<960> LL/token: -9.24195
+<970> LL/token: -9.24211
+<980> LL/token: -9.24231
+<990> LL/token: -9.24194
+
+0	0.1	patio seating parking outdoor tables atmosphere staff plenty restaurant location dining view ambiance options packed selection sunday saturday vibe building 
+1	0.1	staff atmosphere highly prices absolutely restaurant tasty los owner portions def customer visit welcoming cuban empanadas angeles environment priced hidden 
+2	0.1	dining visit quality restaurants ingredients review fact certainly restaurant less simple despite youll diners truly cuisine establishment several options although 
+3	0.1	rice beef dishes noodles dish dumplings shrimp ordered restaurant noodle order asian spicy duck steamed chow tofu broccoli mein crispy 
+4	0.1	cooked ordered filet meal rib potatoes rare steaks restaurant sides salad dessert waiter ribeye steakhouse lobster mignon beef server potato 
+5	0.1	est pas des une mais trs cest qui avec bon dans sont vous nous jai bien sur par tait mon 
+6	0.1	restaurant phoenix places staff restaurants visit business airport scottsdale cleveland owned weve owner valley charlotte pittsburgh atmosphere owners visiting chicago 
+7	0.1	dessert crepe gelato yogurt strawberry toppings crepes waffle banana vanilla caramel scoop serve coconut milk custard creamy treat cone desserts 
+8	0.1	greek pita hummus salad gyro lamb rice plate restaurant falafel tasty ordered shawarma mediterranean meal order beef platter gyros eastern 
+9	0.1	tea milk iced latte starbucks boba cafe espresso teas staff bubble wifi ordered chai barista mocha regular places shops pastries 
+10	0.1	breakfast eggs brunch toast bacon pancakes hash potatoes ordered waffles sausage benedict sunday gravy omelet omelette diner biscuits waffle browns 
+11	0.1	burgers cheese onion bacon bun rings ordered poutine order chili patty potato onions beef cooked cheeseburger toppings juicy tots tasty 
+12	0.1	shrimp crab lobster seafood ordered oysters cooked calamari mussels scallops cajun chowder restaurant meal oyster appetizer order dish clam clams 
+13	0.1	reviews yelp review stars based gave closed visit places ordered rating seemed fact update previous yelpers order mentioned business restaurant 
+14	0.1	ordered tasted cooked meal seemed soggy tasteless burnt plate reviews overcooked salty quality completely waitress pieces stars restaurant raw undercooked 
+15	0.1	quality stars prices average places overall less rating higher review value restaurants restaurant reviews portions theyre compared priced staff paying 
+16	0.1	location parking locations staff mall located opened shopping starbucks chain visit employees plaza theyre mcdonalds north closed court strip station 
+17	0.1	sandwich sandwiches cheese beef sub deli grilled ordered order philly pastrami subway chips tasty roast ham subs bacon smoked mayo 
+18	0.1	sushi tuna salmon sashimi rice tempura ayce spicy quality miso chef restaurant order sake ordered places shrimp pieces nigiri chefs 
+19	0.1	korean rice spicy dishes beef bbq restaurant grill kimchi hawaiian ordered order poke tofu plate teriyaki meal places bulgogi dish 
+20	0.1	restaurant meal dining chef dessert dish dishes view tasting gras waiter foie reservation restaurants montreal courses reservations chefs vegas prepared 
+21	0.1	tables order restaurant waitress plates server plate glass staff seemed plastic served napkins ordered meal noticed coke servers bathroom cups 
+22	0.1	order ordered delivery ordering customer waited location delivered placed gave takeout extra deliver received stars driver togo cashier pickup business 
+23	0.1	pho ramen noodles broth beef vietnamese noodle ordered restaurant places spicy rice order salty bun tasty banh extra miso flavorful 
+24	0.1	atmosphere crowd tvs bartender staff pub bartenders friday saturday bars group irish packed selection sunday beers tables prices nachos karaoke 
+25	0.1	customer manager customers staff business employees owner order management attitude employee location review cashier restaurant gave speak establishment treated register 
+26	0.1	thai curry spicy rice dish ordered restaurant dishes spice noodles beef order coconut shrimp tofu basil tea restaurants tasty salad 
+27	0.1	bill tip waitress ordered extra order manager charged meal server gave groupon coupon waiter restaurant paying customer discount received offered 
+28	0.1	staff server owner customer visit manager restaurant chef highly absolutely atmosphere extremely greeted event servers bartender gave beyond guests accommodating 
+29	0.1	indian restaurant dishes rice naan spicy curry ordered dish lamb masala buffet tasty restaurants spice tikka order vegetarian roti meal 
+30	0.1	tacos taco chips burrito guacamole cheese carne asada rice ordered tortilla margaritas tortillas burritos nachos enchiladas beef chipotle chile quesadilla 
+31	0.1	salad dressing cheese ordered lettuce salads grilled caesar tomatoes tomato meal potato spinach greens tasty avocado salmon sandwich order ranch 
+32	0.1	und der das ist war nicht ich sehr mit auch wir ein aber den essen auf eine gut sind waren 
+33	0.1	hotel staying vegas casino stayed staff strip view bathroom parking group desk resort walking mgm located lounge security lobby entrance 
+34	0.1	beers selection tap craft atmosphere staff draft brewery pub ale wines brew german brews visit bartender glass ipa bottles tour 
+35	0.1	restaurant staff portions prices atmosphere portion meal quality overall group tasty priced decor sizes dishes casual dining average meals extremely 
+36	0.1	youll theyre review fact literally walking stomach joint giant dress apparently entire mention upon heres complete spent tiny less onto 
+37	0.1	decor tables walls restaurant atmosphere interior chairs seating vibe lighting staff seats dining ambiance booths cafe style building edinburgh lit 
+38	0.1	vegas las strip restaurant located prices mall visit hotel places casino restaurants location visiting staying meal york locals highly cafe 
+39	0.1	cheese dish dessert duck salmon served roasted meal cooked salad ordered plate sprouts dishes lamb restaurant grilled appetizer smoked scallops 
+40	0.1	ordered cocktails server cheese cocktail dip appetizer tapas appetizers atmosphere bartender sangria tasty order glass group waitress sliders shared plates 
+41	0.1	pasta restaurant ordered dish salad meal meatballs spaghetti olive cheese dishes calamari ravioli appetizer veal dessert tomato lasagna eggplant parmesan 
+42	0.1	options vegan vegetarian gluten veggie staff smoothie ingredients meal tasty smoothies protein veggies organic juices salads glutenfree selection diet vegetarians 
+43	0.1	bbq cheese brisket pulled sides ordered potato sandwich slaw sauces meal smoked tasty order coleslaw southern cornbread spicy barbecue wing 
+44	0.1	buffet selection vegas buffets dessert station quality desserts crab seafood rib brunch section dishes asian foods options filipino plates sushi 
+45	0.1	server seated waitress order ordered restaurant waited waiter hostess tables manager reservation meal seemed quickly group immediately greeted servers bill 
+46	0.1	crispy dish served texture cooked thick onions chips pieces spicy amount topped crunchy creamy thin slightly salty meal flavorful peppers 
+47	0.1	pizza cheese pizzas toppings thin slice pepperoni ordered slices sausage style order oven dough ingredients delivery chicago mozzarella york crispy 
+48	0.1	selection market prices grocery foods shopping produce products section organic quality staff meats joes parking etc deli stock farmers goods 
+49	0.1	cake bakery cupcakes donut cheesecake cupcake pastries dessert desserts pastry croissant frosting velvet moist filling dozen cinnamon tasted icing macarons 
+
+<1000> LL/token: -9.24186
+
+Total time: 3 hours 37 minutes 23 seconds
